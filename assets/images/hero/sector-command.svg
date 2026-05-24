@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" role="img" aria-label="Persean Sector tactical command display">
+  <defs>
+    <radialGradient id="nebula" cx="62%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#1e6e89" stop-opacity=".55"/>
+      <stop offset=".35" stop-color="#113247" stop-opacity=".55"/>
+      <stop offset=".72" stop-color="#071018" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#02070b"/>
+    </radialGradient>
+    <linearGradient id="burn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#59d0ff"/>
+      <stop offset=".52" stop-color="#7ce7ff"/>
+      <stop offset="1" stop-color="#ff8c42"/>
+    </linearGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".64" numOctaves="3"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .22"/></feComponentTransfer>
+      <feBlend mode="screen" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1000" fill="#071018"/>
+  <rect width="1800" height="1000" fill="url(#nebula)"/>
+  <g opacity=".5" fill="#d9f4ff">
+    <circle cx="108" cy="126" r="1.8"/><circle cx="286" cy="214" r="1.3"/><circle cx="421" cy="92" r="2"/>
+    <circle cx="680" cy="164" r="1.5"/><circle cx="920" cy="118" r="1.8"/><circle cx="1190" cy="204" r="1.2"/>
+    <circle cx="1540" cy="140" r="2"/><circle cx="1660" cy="340" r="1.5"/><circle cx="1420" cy="626" r="1.6"/>
+    <circle cx="1080" cy="774" r="1.8"/><circle cx="760" cy="710" r="1.1"/><circle cx="352" cy="788" r="1.7"/>
+    <circle cx="164" cy="560" r="1.4"/><circle cx="536" cy="420" r="1.2"/><circle cx="1336" cy="454" r="1.8"/>
+  </g>
+  <g opacity=".24" stroke="#59d0ff" stroke-width="2">
+    <path d="M0 200h1800M0 400h1800M0 600h1800M0 800h1800"/>
+    <path d="M200 0v1000M400 0v1000M600 0v1000M800 0v1000M1000 0v1000M1200 0v1000M1400 0v1000M1600 0v1000"/>
+  </g>
+  <g transform="translate(1130 205)" opacity=".78" stroke="#59d0ff" fill="none">
+    <circle cx="220" cy="220" r="210" stroke-width="3"/>
+    <circle cx="220" cy="220" r="145" stroke-width="2"/>
+    <circle cx="220" cy="220" r="80" stroke-width="2"/>
+    <path d="M220 10v420M10 220h420M72 72l296 296M368 72 72 368" stroke-width="2"/>
+    <path d="M220 220l168-96" stroke="#ff8c42" stroke-width="5"/>
+    <circle cx="384" cy="126" r="9" fill="#ff8c42" stroke="none"/>
+    <circle cx="138" cy="306" r="7" fill="#58d68d" stroke="none"/>
+    <circle cx="252" cy="94" r="5" fill="#7ce7ff" stroke="none"/>
+  </g>
+  <g transform="translate(250 560)" fill="none" stroke-linejoin="round">
+    <path d="M0 120 120 0l120 120-120 48z" fill="#101826" stroke="#7ce7ff" stroke-width="6"/>
+    <path d="M120 0v168M0 120h240" stroke="#59d0ff" stroke-width="4"/>
+    <path d="M82 58h76M60 98h120" stroke="#ff8c42" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(670 615)" fill="#101826" stroke="#59d0ff" stroke-width="5">
+    <path d="M0 62 120 0l160 60-160 62z"/>
+    <path d="M120 0v122M46 62h188" opacity=".55"/>
+    <circle cx="120" cy="62" r="16" fill="#ff8c42" stroke="none"/>
+  </g>
+  <g transform="translate(920 340)" fill="#0b1220" stroke="#ff8c42" stroke-width="5">
+    <path d="M0 70 82 0l82 70-82 32z"/>
+    <path d="M82 0v102M30 70h104" opacity=".6"/>
+  </g>
+  <g opacity=".72" font-family="monospace" fill="#7ce7ff">
+    <text x="76" y="96" font-size="28">PERSEAN SECTOR DATABASE // FRAGMENT 17</text>
+    <text x="76" y="138" font-size="19">ACTIVE RELAYS: 03 // SENSOR QUALITY: DEGRADED // HOSTILE CONTACTS: UNKNOWN</text>
+    <text x="1240" y="730" font-size="20">CORE WORLDS</text>
+    <text x="1240" y="760" font-size="20">HYPERSPACE DRIFT +18%</text>
+    <text x="1240" y="790" font-size="20">FLEET LOGISTICS WARNING</text>
+  </g>
+  <path d="M0 840c260-80 520-90 780-46 330 56 642 28 1020-62v268H0z" fill="#02070b" opacity=".75"/>
+  <rect width="1800" height="1000" filter="url(#noise)" opacity=".52"/>
+</svg>
