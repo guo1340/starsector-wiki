@@ -33,7 +33,7 @@
 
   function adSlot(kind) {
     const banner = kind === 'banner';
-    return `<aside class="ad-slot ad-${esc(kind)}" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;${banner ? 'width:100%;height:90px;' : ''}" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453" ${banner ? '' : 'data-ad-format="auto"'} data-full-width-responsive="true"></ins></aside>`;
+    return `<div class="ad-slot ad-${esc(kind)}" role="complementary" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;${banner ? 'width:100%;height:90px;' : ''}" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453" ${banner ? '' : 'data-ad-format="auto"'} data-full-width-responsive="true"></ins></div>`;
   }
   function loadAds() {
     if (!window.adsbygoogle) return;
@@ -147,7 +147,7 @@
     navigate();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-  const searchIndex = [
+  const searchIndex = Array.isArray(D.searchIndex) ? D.searchIndex : [
     ...D.categories.map((c) => ({ title: c.title, sub: 'Archive Node', href: '/' + c.id, tags: c.summary })),
     ...D.pages.map((p) => ({ title: p.title, sub: category(p.category).title, href: '/' + p.category + '/' + p.id, tags: p.tags.join(' ') })),
     ...Object.entries(D.infoPages).map(([k, p]) => ({ title: p.title, sub: 'Site File', href: '/' + k, tags: p.body }))
@@ -174,6 +174,11 @@
     if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#')) return;
     const url = new URL(href, location.origin);
     if (url.origin !== location.origin) return;
+    if (!window.__GW_PRERENDER__) {
+      searchInput.value = '';
+      searchResults.classList.remove('open');
+      return;
+    }
     e.preventDefault();
     searchInput.value = '';
     searchResults.classList.remove('open');
@@ -186,7 +191,13 @@
     }
     if (e.key === 'Escape') searchResults.classList.remove('open');
   });
-  window.addEventListener('popstate', navigate);
+  window.addEventListener('popstate', () => { if (window.__GW_PRERENDER__) navigate(); });
   if (menuToggle) menuToggle.onclick = () => leftNav.classList.toggle('open');
-  navigate();
+  if (window.__GW_PRERENDER__) {
+    navigate();
+  } else {
+    renderLeftNav(route());
+    renderRightNav();
+    setTimeout(loadAds, 100);
+  }
 })();

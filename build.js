@@ -59,12 +59,18 @@ function escAttr(s) {
 function escText(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
-function renderMain(route) {
+function renderRoute(route) {
   CURRENT = route;
   delete require.cache[APP];
   els.main._html = '';
+  els.leftNav._html = '';
+  els.rightNav._html = '';
   require('./js/app.js');
-  return els.main._html;
+  return {
+    main: els.main._html,
+    leftNav: els.leftNav._html,
+    rightNav: els.rightNav._html
+  };
 }
 function headBlock(route) {
   const seo = M.seoFor(route);
@@ -87,9 +93,14 @@ function headBlock(route) {
 }
 function buildPage(template, route) {
   let html = template;
+  const rendered = renderRoute(route);
   html = html.replace(/<!-- ssw:head -->[\s\S]*?<!-- \/ssw:head -->/, '<!-- ssw:head -->\n' + headBlock(route) + '\n    <!-- /ssw:head -->');
   html = html.replace(/<script type="application\/ld\+json" id="ssw-jsonld">[\s\S]*?<\/script>/, '<script type="application/ld+json" id="ssw-jsonld">' + JSON.stringify(M.jsonLdFor(route)) + '</script>');
-  html = html.replace(/<main id="main">[\s\S]*?<\/main>/, '<main id="main">' + renderMain(route) + '</main>');
+  html = html.replace(/<aside class="sector-index" id="leftNav">[\s\S]*?<main id="main">/,
+    '<aside class="sector-index" id="leftNav">' + rendered.leftNav + '</aside>\n      <main id="main">');
+  html = html.replace(/<main id="main">[\s\S]*?<\/main>/, '<main id="main">' + rendered.main + '</main>');
+  html = html.replace(/<aside class="intel-rail" id="rightNav">[\s\S]*?<\/aside>\s*(?:<\/aside>\s*)*<\/div>\s*<footer/,
+    '<aside class="intel-rail" id="rightNav">' + rendered.rightNav + '</aside>\n    </div>\n    <footer');
   return html;
 }
 function routes() {
