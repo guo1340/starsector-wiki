@@ -5,634 +5,1298 @@
   Object.assign(root.WikiData, {
   "searchIndex": [
     {
-      "title": "Beginner Guides",
-      "sub": "Category",
-      "href": "/beginner-guides",
-      "tags": "Starting guide, money routes, first fleet, fuel, supplies and early survival."
-    },
-    {
-      "title": "Ships",
-      "sub": "Category",
-      "href": "/ships",
-      "tags": "Frigates, destroyers, cruisers, capitals, carriers, phase ships and logistics hulls."
-    },
-    {
-      "title": "Weapons",
-      "sub": "Category",
-      "href": "/weapons",
-      "tags": "Ballistic, energy, missile, PD, beam, strike and torpedo weapon references."
-    },
-    {
-      "title": "Fighters",
-      "sub": "Category",
-      "href": "/fighters",
-      "tags": "Fighter wings, bomber wings, interceptors, carrier doctrine and replacement rate."
-    },
-    {
-      "title": "Hullmods",
-      "sub": "Category",
-      "href": "/hullmods",
-      "tags": "Built-in hullmods, combat hullmods, logistics hullmods and S-mod planning."
-    },
-    {
-      "title": "Skills & Officers",
-      "sub": "Category",
-      "href": "/skills",
-      "tags": "Player skills, officer training, elite skills, personalities and AI officer builds."
-    },
-    {
-      "title": "Factions",
-      "sub": "Category",
-      "href": "/factions",
-      "tags": "Hegemony, Tri-Tachyon, Persean League, Sindrian Diktat, Luddics, pirates and Remnants."
-    },
-    {
-      "title": "Colonies",
-      "sub": "Category",
-      "href": "/colonies",
-      "tags": "Colony setup, best worlds, hazard, industries, stability, defenses, AI cores and threats."
-    },
-    {
-      "title": "Exploration",
-      "sub": "Category",
-      "href": "/exploration",
-      "tags": "Ruins, derelicts, research stations, warning beacons, probes, storms, salvaging and fuel."
-    },
-    {
-      "title": "Fleet Building",
-      "sub": "Category",
-      "href": "/fleet-building",
-      "tags": "Early, midgame, endgame, exploration, smuggling, carrier, phase and doctrine fleets."
-    },
-    {
-      "title": "Combat",
-      "sub": "Category",
-      "href": "/combat",
-      "tags": "Flux, shields, armor, EMP, missiles, fighters, carrier warfare and battle positioning."
-    },
-    {
-      "title": "Economy",
-      "sub": "Category",
-      "href": "/economy",
-      "tags": "Trading, smuggling, bounties, commissions, black markets and credit routes."
-    },
-    {
-      "title": "Mods",
-      "sub": "Category",
-      "href": "/mods",
-      "tags": "Nexerelin, Industrial Evolution, ship packs, faction mods, compatibility and load order."
-    },
-    {
-      "title": "Guides",
-      "sub": "Category",
-      "href": "/guides",
-      "tags": "Beginner survival, money, colonies, flux warfare, officers and endgame optimization."
-    },
-    {
-      "title": "Maps & Sector",
-      "sub": "Category",
-      "href": "/maps-sector",
-      "tags": "Core worlds, hyperspace, gates, Domain-era structures, resource worlds and hazards."
-    },
-    {
-      "title": "Patch Notes",
-      "sub": "Category",
-      "href": "/patch-notes",
-      "tags": "Version changes, major mod updates, development notes and compatibility watchpoints."
-    },
-    {
       "title": "Beginner Survival Guide",
-      "sub": "Beginner Guides",
-      "href": "/beginner-guides/beginner-survival-guide",
-      "tags": "A starting captain needs supplies, fuel, salvage discipline and a fleet that can disengage before it needs heroics."
+      "slug": "/beginner-guides/beginner-survival-guide/",
+      "category": "beginner-guides",
+      "summary": "A practical first-campaign route for surviving Starsector: keep logistics cheap, pick controlled fights, build credit buffers and learn when to disengage.",
+      "tags": [
+        "beginner guide",
+        "first campaign",
+        "supplies",
+        "fuel",
+        "fleet progression",
+        "credits",
+        "transponder",
+        "retreat",
+        "beginner-guides"
+      ]
     },
     {
       "title": "How to Make Credits Fast",
-      "sub": "Beginner Guides",
-      "href": "/beginner-guides/make-credits-fast",
-      "tags": "Reliable credits come from low-risk contracts before you bet the fleet on bounty heroics."
+      "slug": "/beginner-guides/make-credits-fast/",
+      "category": "beginner-guides",
+      "summary": "Reliable credits come from low-risk contracts before you bet the fleet on bounty heroics.",
+      "tags": [
+        "Survey missions",
+        "Delivery contracts",
+        "Bounties",
+        "Trading",
+        "Salvage",
+        "beginner-guides",
+        "How to Make Credits Fast"
+      ]
     },
     {
       "title": "Best Starting Ships",
-      "sub": "Beginner Guides",
-      "href": "/beginner-guides/best-starting-ships",
-      "tags": "The best starting ships are forgiving, cheap to maintain and strong enough to teach combat without bankrupting you."
+      "slug": "/beginner-guides/best-starting-ships/",
+      "category": "beginner-guides",
+      "summary": "The best starting ships are forgiving, cheap to maintain and strong enough to teach combat without bankrupting you.",
+      "tags": [
+        "Wolf",
+        "Hammerhead",
+        "Lasher",
+        "Condor",
+        "Wayfarer",
+        "beginner-guides",
+        "Best Starting Ships"
+      ]
     },
     {
       "title": "Supply & Fuel Basics",
-      "sub": "Beginner Guides",
-      "href": "/beginner-guides/supply-fuel-basics",
-      "tags": "Logistics kill fleets more quietly than combat."
+      "slug": "/beginner-guides/supply-fuel-basics/",
+      "category": "beginner-guides",
+      "summary": "Logistics kill fleets more quietly than combat.",
+      "tags": [
+        "Fuel range",
+        "Supply drain",
+        "Recovery costs",
+        "Tankers",
+        "Cargo holds",
+        "beginner-guides",
+        "Supply & Fuel Basics"
+      ]
     },
     {
       "title": "Exploration Basics",
-      "sub": "Beginner Guides",
-      "href": "/beginner-guides/exploration-basics",
-      "tags": "Exploration is profitable when you plan range, sensor profile and cargo space before jumping out."
+      "slug": "/beginner-guides/exploration-basics/",
+      "category": "beginner-guides",
+      "summary": "Exploration is profitable when you plan range, sensor profile and cargo space before jumping out.",
+      "tags": [
+        "Surveying",
+        "Ruins",
+        "Derelicts",
+        "Warning beacons",
+        "Salvage rigs",
+        "beginner-guides",
+        "Exploration Basics"
+      ]
     },
     {
       "title": "Frigates",
-      "sub": "Ships",
-      "href": "/ships/frigates",
-      "tags": "Frigates win through speed, pressure, capture points and cheap deployment."
+      "slug": "/ships/frigates/",
+      "category": "ships",
+      "summary": "Frigates win through speed, pressure, capture points and cheap deployment.",
+      "tags": [
+        "Harassers",
+        "Point capture",
+        "Wolfpack",
+        "Low DP",
+        "Fragility",
+        "ships",
+        "Frigates"
+      ]
     },
     {
       "title": "Destroyers",
-      "sub": "Ships",
-      "href": "/ships/destroyers",
-      "tags": "Destroyers are the first true line ships, but they punish overextension."
+      "slug": "/ships/destroyers/",
+      "category": "ships",
+      "summary": "Destroyers are the first true line ships, but they punish overextension.",
+      "tags": [
+        "Hammerhead",
+        "Sunder",
+        "Enforcer",
+        "Escort duty",
+        "Flux pressure",
+        "ships",
+        "Destroyers"
+      ]
     },
     {
       "title": "Cruisers",
-      "sub": "Ships",
-      "href": "/ships/cruisers",
-      "tags": "Cruisers decide many midgame fights by combining staying power with specialized roles."
+      "slug": "/ships/cruisers/",
+      "category": "ships",
+      "summary": "Cruisers decide many midgame fights by combining staying power with specialized roles.",
+      "tags": [
+        "Eagle",
+        "Dominator",
+        "Aurora",
+        "Mora",
+        "Line anchor",
+        "ships",
+        "Cruisers"
+      ]
     },
     {
       "title": "Capital Ships",
-      "sub": "Ships",
-      "href": "/ships/capital-ships",
-      "tags": "Capital ships are fleet centerpieces, not automatic victories."
+      "slug": "/ships/capital-ships/",
+      "category": "ships",
+      "summary": "Capital ships are fleet centerpieces, not automatic victories.",
+      "tags": [
+        "Onslaught",
+        "Paragon",
+        "Conquest",
+        "Astral",
+        "Deployment cost",
+        "ships",
+        "Capital Ships"
+      ]
     },
     {
       "title": "Phase Ships",
-      "sub": "Ships",
-      "href": "/ships/phase-ships",
-      "tags": "Phase ships trade normal durability for timing, burst and positional abuse."
+      "slug": "/ships/phase-ships/",
+      "category": "ships",
+      "summary": "Phase ships trade normal durability for timing, burst and positional abuse.",
+      "tags": [
+        "Afflictor",
+        "Harbinger",
+        "Doom",
+        "Phase cloak",
+        "Peak time",
+        "ships",
+        "Phase Ships"
+      ]
     },
     {
       "title": "Carriers",
-      "sub": "Ships",
-      "href": "/ships/carriers",
-      "tags": "Carriers project pressure through fighters, replacement rate and battle tempo."
+      "slug": "/ships/carriers/",
+      "category": "ships",
+      "summary": "Carriers project pressure through fighters, replacement rate and battle tempo.",
+      "tags": [
+        "Condor",
+        "Mora",
+        "Heron",
+        "Astral",
+        "Fighter doctrine",
+        "ships",
+        "Carriers"
+      ]
     },
     {
       "title": "Logistics Ships",
-      "sub": "Ships",
-      "href": "/ships/logistics-ships",
-      "tags": "Logistics ships are the reason combat ships reach the battlefield."
+      "slug": "/ships/logistics-ships/",
+      "category": "ships",
+      "summary": "Logistics ships are the reason combat ships reach the battlefield.",
+      "tags": [
+        "Tankers",
+        "Freighters",
+        "Salvage rigs",
+        "Tugs",
+        "Civilian hulls",
+        "ships",
+        "Logistics Ships"
+      ]
     },
     {
       "title": "Best Ships in Starsector",
-      "sub": "Ships",
-      "href": "/ships/best-ships",
-      "tags": "The best ship is the one your doctrine, officers and logistics can support."
+      "slug": "/ships/best-ships/",
+      "category": "ships",
+      "summary": "The best ship is the one your doctrine, officers and logistics can support.",
+      "tags": [
+        "DP efficiency",
+        "Officer fit",
+        "Fleet role",
+        "Skill support",
+        "Availability",
+        "ships",
+        "Best Ships in Starsector"
+      ]
     },
     {
       "title": "Ballistic Weapons",
-      "sub": "Weapons",
-      "href": "/weapons/ballistic-weapons",
-      "tags": "Ballistics excel at pressure, armor cracking and efficient sustained fire."
+      "slug": "/weapons/ballistic-weapons/",
+      "category": "weapons",
+      "summary": "Ballistics excel at pressure, armor cracking and efficient sustained fire.",
+      "tags": [
+        "Kinetic",
+        "High explosive",
+        "Ammo",
+        "Range",
+        "Flux efficiency",
+        "weapons",
+        "Ballistic Weapons"
+      ]
     },
     {
       "title": "Energy Weapons",
-      "sub": "Weapons",
-      "href": "/weapons/energy-weapons",
-      "tags": "Energy weapons offer flexible damage packages at the cost of flux pressure."
+      "slug": "/weapons/energy-weapons/",
+      "category": "weapons",
+      "summary": "Energy weapons offer flexible damage packages at the cost of flux pressure.",
+      "tags": [
+        "Pulse lasers",
+        "Beams",
+        "High tech",
+        "Flux load",
+        "Shield pressure",
+        "weapons",
+        "Energy Weapons"
+      ]
     },
     {
       "title": "Missile Weapons",
-      "sub": "Weapons",
-      "href": "/weapons/missile-weapons",
-      "tags": "Missiles create burst windows that must be timed, protected and followed up."
+      "slug": "/weapons/missile-weapons/",
+      "category": "weapons",
+      "summary": "Missiles create burst windows that must be timed, protected and followed up.",
+      "tags": [
+        "Harpoons",
+        "Sabots",
+        "Torpedoes",
+        "Ammo limits",
+        "Finisher role",
+        "weapons",
+        "Missile Weapons"
+      ]
     },
     {
       "title": "Point Defense Weapons",
-      "sub": "Weapons",
-      "href": "/weapons/pd-weapons",
-      "tags": "Point defense decides whether missiles and fighters become damage or background noise."
+      "slug": "/weapons/pd-weapons/",
+      "category": "weapons",
+      "summary": "Point defense decides whether missiles and fighters become damage or background noise.",
+      "tags": [
+        "PD lasers",
+        "Flak",
+        "Vulcans",
+        "Coverage arcs",
+        "Escort ships",
+        "weapons",
+        "Point Defense Weapons"
+      ]
     },
     {
       "title": "Beam Weapons",
-      "sub": "Weapons",
-      "href": "/weapons/beam-weapons",
-      "tags": "Beams create constant pressure, control and finishing power against overloaded targets."
+      "slug": "/weapons/beam-weapons/",
+      "category": "weapons",
+      "summary": "Beams create constant pressure, control and finishing power against overloaded targets.",
+      "tags": [
+        "Tactical lasers",
+        "HIL",
+        "Range",
+        "Soft flux",
+        "Target pressure",
+        "weapons",
+        "Beam Weapons"
+      ]
     },
     {
       "title": "Best Weapons in Starsector",
-      "sub": "Weapons",
-      "href": "/weapons/best-weapons",
-      "tags": "Weapon tiering depends on mount size, range, flux, target armor and fleet doctrine."
+      "slug": "/weapons/best-weapons/",
+      "category": "weapons",
+      "summary": "Weapon tiering depends on mount size, range, flux, target armor and fleet doctrine.",
+      "tags": [
+        "Needlers",
+        "Heavy maulers",
+        "Sabots",
+        "Autopulse",
+        "HIL",
+        "weapons",
+        "Best Weapons in Starsector"
+      ]
     },
     {
       "title": "Fighter Wings",
-      "sub": "Fighters",
-      "href": "/fighters/fighter-wings",
-      "tags": "Fighters create continuous pressure, distraction and PD tax."
+      "slug": "/fighters/fighter-wings/",
+      "category": "fighters",
+      "summary": "Fighters create continuous pressure, distraction and PD tax.",
+      "tags": [
+        "Interceptors",
+        "Fighters",
+        "Bombers",
+        "Replacement rate",
+        "Carrier skills",
+        "fighters",
+        "Fighter Wings"
+      ]
     },
     {
       "title": "Bomber Wings",
-      "sub": "Fighters",
-      "href": "/fighters/bomber-wings",
-      "tags": "Bombers turn carrier decks into strike threats when timed with pressure."
+      "slug": "/fighters/bomber-wings/",
+      "category": "fighters",
+      "summary": "Bombers turn carrier decks into strike threats when timed with pressure.",
+      "tags": [
+        "Daggers",
+        "Tridents",
+        "Longbows",
+        "Torpedoes",
+        "Strike timing",
+        "fighters",
+        "Bomber Wings"
+      ]
     },
     {
       "title": "Carrier Doctrine",
-      "sub": "Fighters",
-      "href": "/fighters/carrier-doctrine",
-      "tags": "Carrier fleets win by controlling tempo and forcing enemies to defend in every direction."
+      "slug": "/fighters/carrier-doctrine/",
+      "category": "fighters",
+      "summary": "Carrier fleets win by controlling tempo and forcing enemies to defend in every direction.",
+      "tags": [
+        "Deck count",
+        "Escort screen",
+        "Fighter mix",
+        "Missile support",
+        "Recovery",
+        "fighters",
+        "Carrier Doctrine"
+      ]
     },
     {
       "title": "Best Hullmods",
-      "sub": "Hullmods",
-      "href": "/hullmods/best-hullmods",
-      "tags": "Hullmods define what a ship is allowed to be good at."
+      "slug": "/hullmods/best-hullmods/",
+      "category": "hullmods",
+      "summary": "Hullmods define what a ship is allowed to be good at.",
+      "tags": [
+        "Integrated Targeting Unit",
+        "Hardened Shields",
+        "Expanded Missile Racks",
+        "Resistant Flux Conduits",
+        "S-mods",
+        "hullmods",
+        "Best Hullmods"
+      ]
     },
     {
       "title": "Logistics Hullmods",
-      "sub": "Hullmods",
-      "href": "/hullmods/logistics-hullmods",
-      "tags": "Logistics hullmods reduce the quiet costs that end campaigns."
+      "slug": "/hullmods/logistics-hullmods/",
+      "category": "hullmods",
+      "summary": "Logistics hullmods reduce the quiet costs that end campaigns.",
+      "tags": [
+        "Efficiency Overhaul",
+        "Augmented Drive Field",
+        "Insulated Engine Assembly",
+        "Surveying Equipment",
+        "Expanded Cargo Holds",
+        "hullmods",
+        "Logistics Hullmods"
+      ]
     },
     {
       "title": "S-Mod Planning",
-      "sub": "Hullmods",
-      "href": "/hullmods/s-mod-planning",
-      "tags": "Story-point hullmods should solve permanent doctrine problems, not passing annoyances."
+      "slug": "/hullmods/s-mod-planning/",
+      "category": "hullmods",
+      "summary": "Story-point hullmods should solve permanent doctrine problems, not passing annoyances.",
+      "tags": [
+        "Story points",
+        "Ordnance points",
+        "Build identity",
+        "Officer synergy",
+        "Long-term value",
+        "hullmods",
+        "S-Mod Planning"
+      ]
     },
     {
       "title": "Best Combat Skills",
-      "sub": "Skills & Officers",
-      "href": "/skills/best-combat-skills",
-      "tags": "Combat skills turn one flagship from useful to battle-defining."
+      "slug": "/skills/best-combat-skills/",
+      "category": "skills",
+      "summary": "Combat skills turn one flagship from useful to battle-defining.",
+      "tags": [
+        "Helmsmanship",
+        "Combat Endurance",
+        "Target Analysis",
+        "Systems Expertise",
+        "Impact Mitigation",
+        "skills",
+        "Best Combat Skills"
+      ]
     },
     {
       "title": "Best Industry Skills",
-      "sub": "Skills & Officers",
-      "href": "/skills/best-industry-skills",
-      "tags": "Industry skills make exploration, recovery and colonies more forgiving."
+      "slug": "/skills/best-industry-skills/",
+      "category": "skills",
+      "summary": "Industry skills make exploration, recovery and colonies more forgiving.",
+      "tags": [
+        "Bulk Transport",
+        "Salvaging",
+        "Field Repairs",
+        "Colony skills",
+        "Logistics",
+        "skills",
+        "Best Industry Skills"
+      ]
     },
     {
       "title": "Best Leadership Skills",
-      "sub": "Skills & Officers",
-      "href": "/skills/best-leadership-skills",
-      "tags": "Leadership skills make officers, coordinated fleets and carriers scale harder."
+      "slug": "/skills/best-leadership-skills/",
+      "category": "skills",
+      "summary": "Leadership skills make officers, coordinated fleets and carriers scale harder.",
+      "tags": [
+        "Officer Management",
+        "Coordinated Maneuvers",
+        "Carrier Group",
+        "Wolfpack Tactics",
+        "Support Doctrine",
+        "skills",
+        "Best Leadership Skills"
+      ]
     },
     {
       "title": "Officer Training",
-      "sub": "Skills & Officers",
-      "href": "/skills/officer-training",
-      "tags": "Officers should be trained for roles, not random stat piles."
+      "slug": "/skills/officer-training/",
+      "category": "skills",
+      "summary": "Officers should be trained for roles, not random stat piles.",
+      "tags": [
+        "Aggressive",
+        "Steady",
+        "Cautious",
+        "Elite skills",
+        "Ship pairing",
+        "skills",
+        "Officer Training"
+      ]
     },
     {
       "title": "AI Officer Builds",
-      "sub": "Skills & Officers",
-      "href": "/skills/ai-officer-builds",
-      "tags": "AI officers need ships that match their personality and tolerance for danger."
+      "slug": "/skills/ai-officer-builds/",
+      "category": "skills",
+      "summary": "AI officers need ships that match their personality and tolerance for danger.",
+      "tags": [
+        "Personality",
+        "Flux stats",
+        "Range control",
+        "Missile timing",
+        "Survivability",
+        "skills",
+        "AI Officer Builds"
+      ]
     },
     {
       "title": "Hegemony",
-      "sub": "Factions",
-      "href": "/factions/hegemony",
-      "tags": "The Hegemony is armored doctrine, inspections, low-tech fleets and old Domain authority."
+      "slug": "/factions/hegemony/",
+      "category": "factions",
+      "summary": "The Hegemony is armored doctrine, inspections, low-tech fleets and old Domain authority.",
+      "tags": [
+        "Low-tech ships",
+        "Heavy armor",
+        "AI inspections",
+        "Military markets",
+        "Hostility risk",
+        "factions",
+        "Hegemony"
+      ]
     },
     {
       "title": "Tri-Tachyon",
-      "sub": "Factions",
-      "href": "/factions/tri-tachyon",
-      "tags": "Tri-Tachyon favors high-tech ships, advanced markets and corporate deniability."
+      "slug": "/factions/tri-tachyon/",
+      "category": "factions",
+      "summary": "Tri-Tachyon favors high-tech ships, advanced markets and corporate deniability.",
+      "tags": [
+        "High-tech ships",
+        "Energy weapons",
+        "Phase ships",
+        "AI cores",
+        "Markets",
+        "factions",
+        "Tri-Tachyon"
+      ]
     },
     {
       "title": "Persean League",
-      "sub": "Factions",
-      "href": "/factions/persean-league",
-      "tags": "The Persean League is midline doctrine and political opposition to Hegemony control."
+      "slug": "/factions/persean-league/",
+      "category": "factions",
+      "summary": "The Persean League is midline doctrine and political opposition to Hegemony control.",
+      "tags": [
+        "Midline ships",
+        "Trade",
+        "League worlds",
+        "Mixed fleets",
+        "Diplomacy",
+        "factions",
+        "Persean League"
+      ]
     },
     {
       "title": "Sindrian Diktat",
-      "sub": "Factions",
-      "href": "/factions/sindrian-diktat",
-      "tags": "The Diktat is fuel politics, propaganda and bright-orange military pride."
+      "slug": "/factions/sindrian-diktat/",
+      "category": "factions",
+      "summary": "The Diktat is fuel politics, propaganda and bright-orange military pride.",
+      "tags": [
+        "Fuel production",
+        "Sindria",
+        "Lions Guard",
+        "Energy weapons",
+        "Relations",
+        "factions",
+        "Sindrian Diktat"
+      ]
     },
     {
       "title": "Luddic Church",
-      "sub": "Factions",
-      "href": "/factions/luddic-church",
-      "tags": "The Luddic Church fields rugged low-tech fleets and ideological gravity."
+      "slug": "/factions/luddic-church/",
+      "category": "factions",
+      "summary": "The Luddic Church fields rugged low-tech fleets and ideological gravity.",
+      "tags": [
+        "Low tech",
+        "Faith",
+        "Pilgrimage worlds",
+        "Relations",
+        "Doctrine",
+        "factions",
+        "Luddic Church"
+      ]
     },
     {
       "title": "Luddic Path",
-      "sub": "Factions",
-      "href": "/factions/luddic-path",
-      "tags": "The Luddic Path is asymmetric pressure, cells, raids and colony disruption."
+      "slug": "/factions/luddic-path/",
+      "category": "factions",
+      "summary": "The Luddic Path is asymmetric pressure, cells, raids and colony disruption.",
+      "tags": [
+        "Pather cells",
+        "Raids",
+        "Low-tech ships",
+        "Colony threat",
+        "Hostility",
+        "factions",
+        "Luddic Path"
+      ]
     },
     {
       "title": "Pirates",
-      "sub": "Factions",
-      "href": "/factions/pirates",
-      "tags": "Pirates are opportunity, instability and cheap hulls with knives taped on."
+      "slug": "/factions/pirates/",
+      "category": "factions",
+      "summary": "Pirates are opportunity, instability and cheap hulls with knives taped on.",
+      "tags": [
+        "Raids",
+        "Black markets",
+        "Low-quality fleets",
+        "Bases",
+        "Bounties",
+        "factions",
+        "Pirates"
+      ]
     },
     {
       "title": "Remnants",
-      "sub": "Factions",
-      "href": "/factions/remnants",
-      "tags": "Remnants are high-tech automated fleets that punish casual exploration."
+      "slug": "/factions/remnants/",
+      "category": "factions",
+      "summary": "Remnants are high-tech automated fleets that punish casual exploration.",
+      "tags": [
+        "Warning beacons",
+        "Automated ships",
+        "High danger",
+        "AI cores",
+        "Endgame combat",
+        "factions",
+        "Remnants"
+      ]
     },
     {
       "title": "Colony Setup Guide",
-      "sub": "Colonies",
-      "href": "/colonies/colony-setup-guide",
-      "tags": "A good colony starts with the right world, enough capital and a threat plan."
+      "slug": "/colonies/colony-setup-guide/",
+      "category": "colonies",
+      "summary": "Colonies are profitable only when you settle at the right time, choose a defensible system, build industries in order and prepare for raids before they arrive.",
+      "tags": [
+        "colony guide",
+        "best colony",
+        "hazard rating",
+        "industries",
+        "AI cores",
+        "patrols",
+        "stability",
+        "colonies"
+      ]
     },
     {
       "title": "Best Colony Locations",
-      "sub": "Colonies",
-      "href": "/colonies/best-colony-locations",
-      "tags": "The best colony location balances resources, hazard, access and strategic risk."
+      "slug": "/colonies/best-colony-locations/",
+      "category": "colonies",
+      "summary": "The best colony location balances resources, hazard, access and strategic risk.",
+      "tags": [
+        "Habitable worlds",
+        "Ore",
+        "Volatiles",
+        "Farmland",
+        "System quality",
+        "colonies",
+        "Best Colony Locations"
+      ]
     },
     {
       "title": "Hazard Rating",
-      "sub": "Colonies",
-      "href": "/colonies/hazard-rating",
-      "tags": "Hazard rating quietly decides whether your colony prints credits or eats them."
+      "slug": "/colonies/hazard-rating/",
+      "category": "colonies",
+      "summary": "Hazard rating quietly decides whether your colony prints credits or eats them.",
+      "tags": [
+        "Upkeep",
+        "Growth",
+        "Accessibility",
+        "Industry profit",
+        "Terraforming mods",
+        "colonies",
+        "Hazard Rating"
+      ]
     },
     {
       "title": "Industries",
-      "sub": "Colonies",
-      "href": "/colonies/industries",
-      "tags": "Industries define colony identity, exports and what enemies care about."
+      "slug": "/colonies/industries/",
+      "category": "colonies",
+      "summary": "Industries define colony identity, exports and what enemies care about.",
+      "tags": [
+        "Farming",
+        "Mining",
+        "Fuel Production",
+        "Heavy Industry",
+        "Commerce",
+        "colonies",
+        "Industries"
+      ]
     },
     {
       "title": "AI Cores",
-      "sub": "Colonies",
-      "href": "/colonies/ai-cores",
-      "tags": "AI cores are profit, efficiency and Hegemony attention bundled together."
+      "slug": "/colonies/ai-cores/",
+      "category": "colonies",
+      "summary": "AI cores are profit, efficiency and Hegemony attention bundled together.",
+      "tags": [
+        "Alpha cores",
+        "Beta cores",
+        "Gamma cores",
+        "Inspections",
+        "Risk",
+        "colonies",
+        "AI Cores"
+      ]
     },
     {
       "title": "Colony Threats",
-      "sub": "Colonies",
-      "href": "/colonies/colony-threats",
-      "tags": "Colonies invite pirates, Pathers, inspections and expedition pressure."
+      "slug": "/colonies/colony-threats/",
+      "category": "colonies",
+      "summary": "Colonies invite pirates, Pathers, inspections and expedition pressure.",
+      "tags": [
+        "Pirates",
+        "Pather cells",
+        "Raids",
+        "Expeditions",
+        "Defenses",
+        "colonies",
+        "Colony Threats"
+      ]
     },
     {
       "title": "Domain-era Ruins",
-      "sub": "Exploration",
-      "href": "/exploration/domain-era-ruins",
-      "tags": "Ruins are the sector paying captains who prepared cargo, fuel and survey gear."
+      "slug": "/exploration/domain-era-ruins/",
+      "category": "exploration",
+      "summary": "Ruins are the sector paying captains who prepared cargo, fuel and survey gear.",
+      "tags": [
+        "Artifacts",
+        "Blueprints",
+        "AI cores",
+        "Surveying",
+        "Salvage",
+        "exploration",
+        "Domain-era Ruins"
+      ]
     },
     {
       "title": "Research Stations",
-      "sub": "Exploration",
-      "href": "/exploration/research-stations",
-      "tags": "Research stations are high-value exploration targets worth detours."
+      "slug": "/exploration/research-stations/",
+      "category": "exploration",
+      "summary": "Research stations are high-value exploration targets worth detours.",
+      "tags": [
+        "Blueprints",
+        "Rare loot",
+        "Danger",
+        "Scanning",
+        "Salvage",
+        "exploration",
+        "Research Stations"
+      ]
     },
     {
       "title": "Warning Beacons",
-      "sub": "Exploration",
-      "href": "/exploration/warning-beacons",
-      "tags": "Warning beacons are not decoration. They are combat forecasts."
+      "slug": "/exploration/warning-beacons/",
+      "category": "exploration",
+      "summary": "Warning beacons are not decoration. They are combat forecasts.",
+      "tags": [
+        "Low danger",
+        "Medium danger",
+        "High danger",
+        "Remnants",
+        "Risk",
+        "exploration",
+        "Warning Beacons"
+      ]
     },
     {
       "title": "Hyperspace Storms",
-      "sub": "Exploration",
-      "href": "/exploration/hyperspace-storms",
-      "tags": "Storms trade time for fuel, damage and emergency decisions."
+      "slug": "/exploration/hyperspace-storms/",
+      "category": "exploration",
+      "summary": "Storms trade time for fuel, damage and emergency decisions.",
+      "tags": [
+        "Fuel cost",
+        "CR damage",
+        "Slipstreams",
+        "Navigation",
+        "Avoidance",
+        "exploration",
+        "Hyperspace Storms"
+      ]
     },
     {
       "title": "Salvaging",
-      "sub": "Exploration",
-      "href": "/exploration/salvaging",
-      "tags": "Salvaging is most profitable when the fleet is built to recover value efficiently."
+      "slug": "/exploration/salvaging/",
+      "category": "exploration",
+      "summary": "Salvaging is most profitable when the fleet is built to recover value efficiently.",
+      "tags": [
+        "Salvage rigs",
+        "Skills",
+        "Derelicts",
+        "Cargo",
+        "Supply cost",
+        "exploration",
+        "Salvaging"
+      ]
     },
     {
       "title": "Early Game Fleets",
-      "sub": "Fleet Building",
-      "href": "/fleet-building/early-game-fleets",
-      "tags": "Early fleets should be cheap, fast and able to retreat from bad contracts."
+      "slug": "/fleet-building/early-game-fleets/",
+      "category": "fleet-building",
+      "summary": "The best early Starsector fleet is cheap, fast and flexible: enough combat power to beat pirates, enough logistics to finish jobs and enough speed to refuse bad fights.",
+      "tags": [
+        "early game fleet",
+        "fleet composition",
+        "frigates",
+        "destroyers",
+        "logistics",
+        "pirates",
+        "beginner fleet",
+        "fleet-building"
+      ]
     },
     {
       "title": "Mid Game Fleets",
-      "sub": "Fleet Building",
-      "href": "/fleet-building/mid-game-fleets",
-      "tags": "Midgame fleets need anchors, pursuit ships and logistics that keep pace."
+      "slug": "/fleet-building/mid-game-fleets/",
+      "category": "fleet-building",
+      "summary": "Midgame fleets need anchors, pursuit ships and logistics that keep pace.",
+      "tags": [
+        "Cruisers",
+        "Carriers",
+        "Officers",
+        "Logistics",
+        "Doctrine",
+        "fleet-building",
+        "Mid Game Fleets"
+      ]
     },
     {
       "title": "Endgame Fleets",
-      "sub": "Fleet Building",
-      "href": "/fleet-building/endgame-fleets",
-      "tags": "Endgame fleets are built around doctrine, officer quality and DP-efficient anchors."
+      "slug": "/fleet-building/endgame-fleets/",
+      "category": "fleet-building",
+      "summary": "Endgame fleets are built around doctrine, officer quality and DP-efficient anchors.",
+      "tags": [
+        "Capitals",
+        "Elite officers",
+        "Support ships",
+        "Automated threats",
+        "Colony defense",
+        "fleet-building",
+        "Endgame Fleets"
+      ]
     },
     {
       "title": "Exploration Fleets",
-      "sub": "Fleet Building",
-      "href": "/fleet-building/exploration-fleets",
-      "tags": "Exploration fleets need sensor control, range and cargo more than raw DP."
+      "slug": "/fleet-building/exploration-fleets/",
+      "category": "fleet-building",
+      "summary": "Exploration fleets need sensor control, range and cargo more than raw DP.",
+      "tags": [
+        "Fuel tankers",
+        "Freighters",
+        "Salvage rigs",
+        "Survey gear",
+        "Burn speed",
+        "fleet-building",
+        "Exploration Fleets"
+      ]
     },
     {
       "title": "Carrier Fleets",
-      "sub": "Fleet Building",
-      "href": "/fleet-building/carrier-fleets",
-      "tags": "Carrier fleets work when fighters have a screen, not when decks are left alone to solve everything."
+      "slug": "/fleet-building/carrier-fleets/",
+      "category": "fleet-building",
+      "summary": "Carrier fleets work when fighters have a screen, not when decks are left alone to solve everything.",
+      "tags": [
+        "Deck count",
+        "Escort screen",
+        "Bombers",
+        "Interceptors",
+        "Leadership skills",
+        "fleet-building",
+        "Carrier Fleets"
+      ]
     },
     {
       "title": "Phase Fleets",
-      "sub": "Fleet Building",
-      "href": "/fleet-building/phase-fleets",
-      "tags": "Phase fleets demand timing, officer support and good target selection."
+      "slug": "/fleet-building/phase-fleets/",
+      "category": "fleet-building",
+      "summary": "Phase fleets demand timing, officer support and good target selection.",
+      "tags": [
+        "Phase ships",
+        "Peak time",
+        "Burst damage",
+        "Harassment",
+        "Skill support",
+        "fleet-building",
+        "Phase Fleets"
+      ]
     },
     {
       "title": "Flux Management",
-      "sub": "Combat",
-      "href": "/combat/flux-management",
-      "tags": "Flux is the combat economy: ships die when they spend it badly."
+      "slug": "/combat/flux-management/",
+      "category": "combat",
+      "summary": "Flux is the combat economy: ships die when they spend it badly.",
+      "tags": [
+        "Soft flux",
+        "Hard flux",
+        "Venting",
+        "Overload",
+        "Pressure",
+        "combat",
+        "Flux Management"
+      ]
     },
     {
       "title": "Shield Mechanics",
-      "sub": "Combat",
-      "href": "/combat/shield-mechanics",
-      "tags": "Shield arcs, efficiency and upkeep decide how long a ship can stay in the line."
+      "slug": "/combat/shield-mechanics/",
+      "category": "combat",
+      "summary": "Shield arcs, efficiency and upkeep decide how long a ship can stay in the line.",
+      "tags": [
+        "Shield arc",
+        "Efficiency",
+        "Upkeep",
+        "Hard flux",
+        "Flickering",
+        "combat",
+        "Shield Mechanics"
+      ]
     },
     {
       "title": "Armor Mechanics",
-      "sub": "Combat",
-      "href": "/combat/armor-mechanics",
-      "tags": "Armor rewards angled pressure, high-explosive follow-up and patience."
+      "slug": "/combat/armor-mechanics/",
+      "category": "combat",
+      "summary": "Armor rewards angled pressure, high-explosive follow-up and patience.",
+      "tags": [
+        "Armor grid",
+        "HE damage",
+        "Kinetics",
+        "Hull damage",
+        "Armor tanks",
+        "combat",
+        "Armor Mechanics"
+      ]
     },
     {
       "title": "Missile Saturation",
-      "sub": "Combat",
-      "href": "/combat/missile-saturation",
-      "tags": "Missiles win when PD is overloaded or pointed elsewhere."
+      "slug": "/combat/missile-saturation/",
+      "category": "combat",
+      "summary": "Missiles win when PD is overloaded or pointed elsewhere.",
+      "tags": [
+        "Sabots",
+        "Harpoons",
+        "Torpedoes",
+        "PD tax",
+        "Strike timing",
+        "combat",
+        "Missile Saturation"
+      ]
     },
     {
       "title": "Fighter Control",
-      "sub": "Combat",
-      "href": "/combat/fighter-control",
-      "tags": "Fighter control is about timing, replacement rate and target pressure."
+      "slug": "/combat/fighter-control/",
+      "category": "combat",
+      "summary": "Fighter control is about timing, replacement rate and target pressure.",
+      "tags": [
+        "Engage orders",
+        "Regroup",
+        "Bombers",
+        "Interceptors",
+        "Carrier safety",
+        "combat",
+        "Fighter Control"
+      ]
     },
     {
       "title": "Battle Positioning",
-      "sub": "Combat",
-      "href": "/combat/battle-positioning",
-      "tags": "Positioning decides which fleet fights together and which dies in pieces."
+      "slug": "/combat/battle-positioning/",
+      "category": "combat",
+      "summary": "Positioning decides which fleet fights together and which dies in pieces.",
+      "tags": [
+        "Capture points",
+        "Nav buoys",
+        "Flanks",
+        "Retreats",
+        "Command points",
+        "combat",
+        "Battle Positioning"
+      ]
     },
     {
       "title": "Trading Guide",
-      "sub": "Economy",
-      "href": "/economy/trading-guide",
-      "tags": "Trading is information arbitrage plus cargo discipline."
+      "slug": "/economy/trading-guide/",
+      "category": "economy",
+      "summary": "Trading is information arbitrage plus cargo discipline.",
+      "tags": [
+        "Shortages",
+        "Surpluses",
+        "Legal markets",
+        "Tariffs",
+        "Cargo space",
+        "economy",
+        "Trading Guide"
+      ]
     },
     {
       "title": "Smuggling Guide",
-      "sub": "Economy",
-      "href": "/economy/smuggling-guide",
-      "tags": "Smuggling pays for stealth, speed and knowing when to turn the transponder off."
+      "slug": "/economy/smuggling-guide/",
+      "category": "economy",
+      "summary": "Smuggling pays for stealth, speed and knowing when to turn the transponder off.",
+      "tags": [
+        "Black markets",
+        "Sensor profile",
+        "Patrols",
+        "Contraband",
+        "Reputation",
+        "economy",
+        "Smuggling Guide"
+      ]
     },
     {
       "title": "Bounty Guide",
-      "sub": "Economy",
-      "href": "/economy/bounty-guide",
-      "tags": "Bounties are profitable when threat estimates are honest."
+      "slug": "/economy/bounty-guide/",
+      "category": "economy",
+      "summary": "Bounties are profitable when threat estimates are honest.",
+      "tags": [
+        "Fleet rating",
+        "Officers",
+        "Recovery cost",
+        "Deployment points",
+        "Escape route",
+        "economy",
+        "Bounty Guide"
+      ]
     },
     {
       "title": "Commissions",
-      "sub": "Economy",
-      "href": "/economy/commissions",
-      "tags": "Commissions trade steady income for faction entanglement."
+      "slug": "/economy/commissions/",
+      "category": "economy",
+      "summary": "Commissions trade steady income for faction entanglement.",
+      "tags": [
+        "Monthly pay",
+        "Relations",
+        "Enemies",
+        "Military markets",
+        "Strategic cost",
+        "economy",
+        "Commissions"
+      ]
     },
     {
       "title": "Nexerelin",
-      "sub": "Mods",
-      "href": "/mods/nexerelin",
-      "tags": "Nexerelin turns Starsector into a more dynamic faction war sandbox."
+      "slug": "/mods/nexerelin/",
+      "category": "mods",
+      "summary": "Nexerelin turns Starsector into a more dynamic faction war sandbox.",
+      "tags": [
+        "Faction invasions",
+        "Diplomacy",
+        "Agents",
+        "Start options",
+        "Compatibility",
+        "mods",
+        "Nexerelin"
+      ]
     },
     {
       "title": "Industrial Evolution",
-      "sub": "Mods",
-      "href": "/mods/industrial-evolution",
-      "tags": "Industrial Evolution expands colony infrastructure, artifacts and campaign texture."
+      "slug": "/mods/industrial-evolution/",
+      "category": "mods",
+      "summary": "Industrial Evolution expands colony infrastructure, artifacts and campaign texture.",
+      "tags": [
+        "Colony structures",
+        "Artifacts",
+        "Industry options",
+        "Compatibility",
+        "Balance",
+        "mods",
+        "Industrial Evolution"
+      ]
     },
     {
       "title": "Ship/Weapon Pack",
-      "sub": "Mods",
-      "href": "/mods/ship-weapon-pack",
-      "tags": "Ship/Weapon Pack adds a large set of hulls and weapons for expanded fleet building."
+      "slug": "/mods/ship-weapon-pack/",
+      "category": "mods",
+      "summary": "Ship/Weapon Pack adds a large set of hulls and weapons for expanded fleet building.",
+      "tags": [
+        "Ships",
+        "Weapons",
+        "Balance",
+        "Compatibility",
+        "Fleet variety",
+        "mods",
+        "Ship/Weapon Pack"
+      ]
     },
     {
       "title": "Unknown Skies",
-      "sub": "Mods",
-      "href": "/mods/unknown-skies",
-      "tags": "Unknown Skies expands planetary variety and exploration flavor."
+      "slug": "/mods/unknown-skies/",
+      "category": "mods",
+      "summary": "Unknown Skies expands planetary variety and exploration flavor.",
+      "tags": [
+        "Planet types",
+        "Visual variety",
+        "Exploration",
+        "Compatibility",
+        "Colonies",
+        "mods",
+        "Unknown Skies"
+      ]
     },
     {
       "title": "Tahlan Shipworks",
-      "sub": "Mods",
-      "href": "/mods/tahlan-shipworks",
-      "tags": "Tahlan Shipworks adds distinctive hulls and faction-flavored threats."
+      "slug": "/mods/tahlan-shipworks/",
+      "category": "mods",
+      "summary": "Tahlan Shipworks adds distinctive hulls and faction-flavored threats.",
+      "tags": [
+        "Ships",
+        "Factions",
+        "Weapons",
+        "Balance",
+        "Compatibility",
+        "mods",
+        "Tahlan Shipworks"
+      ]
     },
     {
       "title": "Starship Legends",
-      "sub": "Mods",
-      "href": "/mods/starship-legends",
-      "tags": "Starship Legends gives ships histories, reputations and personality."
+      "slug": "/mods/starship-legends/",
+      "category": "mods",
+      "summary": "Starship Legends gives ships histories, reputations and personality.",
+      "tags": [
+        "Ship traits",
+        "Reputation",
+        "Campaign flavor",
+        "Fleet attachment",
+        "Compatibility",
+        "mods",
+        "Starship Legends"
+      ]
     },
     {
       "title": "Iron Shell",
-      "sub": "Mods",
-      "href": "/mods/iron-shell",
-      "tags": "Iron Shell adds Hegemony-adjacent military flavor and content."
+      "slug": "/mods/iron-shell/",
+      "category": "mods",
+      "summary": "Iron Shell adds Hegemony-adjacent military flavor and content.",
+      "tags": [
+        "Faction content",
+        "Ships",
+        "Missions",
+        "Hegemony theme",
+        "Compatibility",
+        "mods",
+        "Iron Shell"
+      ]
     },
     {
       "title": "Best Mods for Starsector",
-      "sub": "Mods",
-      "href": "/mods/best-mods",
-      "tags": "The best mods expand the sector without breaking the campaign you meant to play."
+      "slug": "/mods/best-mods/",
+      "category": "mods",
+      "summary": "The best mods expand the sector without breaking the campaign you meant to play.",
+      "tags": [
+        "Nexerelin",
+        "Industrial Evolution",
+        "Ship packs",
+        "QoL mods",
+        "Compatibility",
+        "mods",
+        "Best Mods for Starsector"
+      ]
     },
     {
       "title": "Colony Guide",
-      "sub": "Guides",
-      "href": "/guides/colony-guide",
-      "tags": "Colonies become profitable when world choice, industries and defense mature together."
+      "slug": "/guides/colony-guide/",
+      "category": "guides",
+      "summary": "Colonies become profitable when world choice, industries and defense mature together.",
+      "tags": [
+        "World selection",
+        "Industries",
+        "Stability",
+        "Defenses",
+        "AI cores",
+        "guides",
+        "Colony Guide"
+      ]
     },
     {
       "title": "Flux Warfare",
-      "sub": "Guides",
-      "href": "/guides/flux-warfare",
-      "tags": "Flux warfare is the art of making the enemy spend badly before you commit."
+      "slug": "/guides/flux-warfare/",
+      "category": "guides",
+      "summary": "Flux warfare is the art of making the enemy spend badly before you commit.",
+      "tags": [
+        "Pressure",
+        "Venting windows",
+        "Kinetic damage",
+        "Overload",
+        "Follow-up",
+        "guides",
+        "Flux Warfare"
+      ]
     },
     {
       "title": "Fleet Doctrine Theory",
-      "sub": "Guides",
-      "href": "/guides/fleet-doctrine-theory",
-      "tags": "Doctrine is how ships, officers, weapons and logistics agree with each other."
+      "slug": "/guides/fleet-doctrine-theory/",
+      "category": "guides",
+      "summary": "Doctrine is how ships, officers, weapons and logistics agree with each other.",
+      "tags": [
+        "Low tech",
+        "Midline",
+        "High tech",
+        "Carrier",
+        "Phase",
+        "guides",
+        "Fleet Doctrine Theory"
+      ]
     },
     {
       "title": "AI Manipulation",
-      "sub": "Guides",
-      "href": "/guides/ai-manipulation",
-      "tags": "The combat AI is predictable enough to support plans and dangerous enough to punish lazy ones."
+      "slug": "/guides/ai-manipulation/",
+      "category": "guides",
+      "summary": "The combat AI is predictable enough to support plans and dangerous enough to punish lazy ones.",
+      "tags": [
+        "Range control",
+        "Officer personality",
+        "Orders",
+        "Threat zones",
+        "Retreat logic",
+        "guides",
+        "AI Manipulation"
+      ]
     },
     {
       "title": "Min-Maxing Officers",
-      "sub": "Guides",
-      "href": "/guides/officer-min-maxing",
-      "tags": "Min-maxed officers make specific hulls behave like doctrine pieces instead of stat blocks."
+      "slug": "/guides/officer-min-maxing/",
+      "category": "guides",
+      "summary": "Min-maxed officers make specific hulls behave like doctrine pieces instead of stat blocks.",
+      "tags": [
+        "Elite skills",
+        "Personality",
+        "Ship role",
+        "Skill trees",
+        "Assignment",
+        "guides",
+        "Min-Maxing Officers"
+      ]
     },
     {
       "title": "Best Ship Tier List",
-      "sub": "Guides",
-      "href": "/guides/best-ship-tier-list",
-      "tags": "Ship tier lists only matter when they explain fleet role and support requirements."
+      "slug": "/guides/best-ship-tier-list/",
+      "category": "guides",
+      "summary": "Ship tier lists only matter when they explain fleet role and support requirements.",
+      "tags": [
+        "DP value",
+        "Officer scaling",
+        "Availability",
+        "Autopilot",
+        "Endgame",
+        "guides",
+        "Best Ship Tier List"
+      ]
     },
     {
       "title": "Core Worlds",
-      "sub": "Maps & Sector",
-      "href": "/maps-sector/core-worlds",
-      "tags": "The Core Worlds are markets, patrols, politics and opportunity compressed into known space."
+      "slug": "/maps-sector/core-worlds/",
+      "category": "maps-sector",
+      "summary": "The Core Worlds are markets, patrols, politics and opportunity compressed into known space.",
+      "tags": [
+        "Markets",
+        "Factions",
+        "Patrols",
+        "Trade",
+        "Missions",
+        "maps-sector",
+        "Core Worlds"
+      ]
     },
     {
       "title": "Hyperspace",
-      "sub": "Maps & Sector",
-      "href": "/maps-sector/hyperspace",
-      "tags": "Hyperspace is travel, storms, sensor decisions and fuel math."
+      "slug": "/maps-sector/hyperspace/",
+      "category": "maps-sector",
+      "summary": "Hyperspace is travel, storms, sensor decisions and fuel math.",
+      "tags": [
+        "Storms",
+        "Terrain",
+        "Slipstreams",
+        "Sensor profile",
+        "Range",
+        "maps-sector",
+        "Hyperspace"
+      ]
     },
     {
       "title": "Gates",
-      "sub": "Maps & Sector",
-      "href": "/maps-sector/gates",
-      "tags": "Gates reshape campaign travel once the right story systems unlock."
+      "slug": "/maps-sector/gates/",
+      "category": "maps-sector",
+      "summary": "Gates reshape campaign travel once the right story systems unlock.",
+      "tags": [
+        "Gate network",
+        "Story progress",
+        "Travel time",
+        "Strategic value",
+        "Exploration",
+        "maps-sector",
+        "Gates"
+      ]
     },
     {
       "title": "Resource Worlds",
-      "sub": "Maps & Sector",
-      "href": "/maps-sector/resource-worlds",
-      "tags": "Resource worlds decide whether colonies grow into empires or expensive flags."
+      "slug": "/maps-sector/resource-worlds/",
+      "category": "maps-sector",
+      "summary": "Resource worlds decide whether colonies grow into empires or expensive flags.",
+      "tags": [
+        "Ore",
+        "Rare ore",
+        "Volatiles",
+        "Farmland",
+        "Organics",
+        "maps-sector",
+        "Resource Worlds"
+      ]
     },
     {
       "title": "Cryosleepers",
-      "sub": "Maps & Sector",
-      "href": "/maps-sector/cryosleepers",
-      "tags": "Cryosleepers can transform nearby colony growth and strategic value."
+      "slug": "/maps-sector/cryosleepers/",
+      "category": "maps-sector",
+      "summary": "Cryosleepers can transform nearby colony growth and strategic value.",
+      "tags": [
+        "Population growth",
+        "System planning",
+        "Exploration",
+        "Colony value",
+        "Defense",
+        "maps-sector",
+        "Cryosleepers"
+      ]
     },
     {
       "title": "Patch Notes",
-      "sub": "Patch Notes",
-      "href": "/patch-notes/patch-notes",
-      "tags": "Patch notes matter because balance, ship stats and campaign systems can shift doctrine."
+      "slug": "/patch-notes/patch-notes/",
+      "category": "patch-notes",
+      "summary": "Patch notes matter because balance, ship stats and campaign systems can shift doctrine.",
+      "tags": [
+        "Version changes",
+        "Balance",
+        "Ships",
+        "Campaign changes",
+        "Compatibility",
+        "patch-notes",
+        "Patch Notes"
+      ]
     },
     {
       "title": "Mod Compatibility Notes",
-      "sub": "Patch Notes",
-      "href": "/patch-notes/mod-compatibility",
-      "tags": "Compatibility notes keep the sector from collapsing under its own modlist."
-    },
-    {
-      "title": "About Starsector Wiki",
-      "sub": "Site Info",
-      "href": "/about",
-      "tags": "<p><strong>Starsector Wiki</strong> is an unofficial GameWikiHub command database for ships, weapons, factions, colonies, combat, exploration, fleet doctrine and mods across the Persean Sector.</p><p>The site is built as a fast static archive with structured pages, tactical summaries, search, SEO metadata and non-invasive ad placements.</p><h3>Editorial approach</h3><p>Articles are written for captains who want practical decisions: what to fly, what to avoid, how to build colonies and how to keep a campaign alive.</p><h3>Unofficial notice</h3><p>This site is not affiliated with, endorsed by, or sponsored by Fractal Softworks.</p>"
-    },
-    {
-      "title": "Privacy Policy",
-      "sub": "Site Info",
-      "href": "/privacy-policy",
-      "tags": "<p><strong>Effective date:</strong> May 24, 2026</p><p>This static wiki does not require user accounts and does not intentionally collect names, passwords, payment information or private account details.</p><h3>Automatically processed information</h3><p>Hosting, analytics, security and advertising providers may process technical information such as IP address, browser type, device type, pages visited, referring pages, approximate location and timestamps.</p><h3>Cookies and advertising</h3><p>This site may use cookies, local storage, analytics tools and advertising providers such as Google AdSense. Advertising partners may use cookies or similar technologies to serve ads, measure performance, prevent fraud and personalize or limit advertising according to user settings and applicable law.</p><h3>Third-party links</h3><p>External links to official resources, forums, wikis, mod pages or community sites are governed by those sites&apos; own policies.</p><h3>Contact</h3><p>Questions about this policy can be sent through the contact page.</p>"
-    },
-    {
-      "title": "Contact",
-      "sub": "Site Info",
-      "href": "/contact",
-      "tags": "<p>Use this page to report corrections, suggest guide topics, request removals or ask about the Starsector Wiki project.</p><h3>Email</h3><p><a href=\"mailto:contact@gamewikihub.com\">contact@gamewikihub.com</a></p><h3>What to include</h3><ul><li>The page URL or title.</li><li>What information is wrong, missing or outdated.</li><li>A source, screenshot, patch note or clear explanation when available.</li></ul><h3>Official support</h3><p>For official support, purchases, bug reports or account issues, contact Fractal Softworks through official channels.</p>"
+      "slug": "/patch-notes/mod-compatibility/",
+      "category": "patch-notes",
+      "summary": "Compatibility notes keep the sector from collapsing under its own modlist.",
+      "tags": [
+        "Load order",
+        "Dependencies",
+        "Version match",
+        "Save safety",
+        "Known issues",
+        "patch-notes",
+        "Mod Compatibility Notes"
+      ]
     }
   ]
 });

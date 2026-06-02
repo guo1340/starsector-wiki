@@ -8,73 +8,99 @@
       "category": "beginner-guides",
       "id": "beginner-survival-guide",
       "title": "Beginner Survival Guide",
-      "summary": "A starting captain needs supplies, fuel, salvage discipline and a fleet that can disengage before it needs heroics.",
+      "summary": "A practical first-campaign route for surviving Starsector: keep logistics cheap, pick controlled fights, build credit buffers and learn when to disengage.",
       "stats": [
-        "Early route",
+        "First month plan",
+        "Credit safety buffer",
+        "Cheap fleet growth",
         "Transponder discipline",
-        "Supplies",
-        "Fuel",
-        "Retreat planning"
+        "Retreat decisions"
       ],
       "tags": [
-        "Early route",
-        "Transponder discipline",
-        "Supplies",
-        "Fuel",
-        "Retreat planning",
-        "beginner-guides",
-        "Beginner Survival Guide"
+        "beginner guide",
+        "first campaign",
+        "supplies",
+        "fuel",
+        "fleet progression",
+        "credits",
+        "transponder",
+        "retreat",
+        "beginner-guides"
       ],
       "sections": [
         {
-          "h": "Command Summary",
-          "body": "<p>A starting captain needs supplies, fuel, salvage discipline and a fleet that can disengage before it needs heroics.</p>"
+          "h": "Overview",
+          "body": "<p>The first Starsector campaign is usually lost before the decisive battle. New captains run out of supplies, accept a bounty that is too large, chase salvage into deep space without fuel, or buy a flashy cruiser before they can afford to deploy and recover it. Survival is less about one perfect ship and more about keeping your campaign options open.</p><p>A strong opening route is simple: do low-risk work near the core worlds, build a small combat wing, add just enough logistics capacity, then branch into exploration or bounties once you have a cash reserve. If a decision makes you unable to retreat, repair, or refuel, it is probably too early.</p>"
         },
         {
-          "h": "Tactical Readout",
+          "h": "Why It Matters",
+          "body": "<p>Starsector quietly punishes overconfidence. Supplies tick down during travel and repairs, fuel limits how far you can explore, and combat losses often cost more than the bounty paid. Experienced players talk about early logistics constantly because the campaign layer decides which battles are profitable. A beginner who understands burn speed, sensor profile, cargo space and retreat routes will progress faster than a beginner who only memorizes ship names.</p>"
+        },
+        {
+          "h": "Practical Uses",
+          "body": "<p>Use this page as a checklist for the first several in-game months. Before leaving port, ask whether you can pay for supplies, fuel, crew losses and emergency repairs after the job goes wrong. Before accepting a fight, check whether your fleet can disengage. Before exploring, check whether the return trip is covered.</p><p>Think in loops rather than single jobs. A good beginner loop might start at a core market, accept a nearby survey or scan mission, buy enough fuel for the round trip, fight only pirates you can clearly beat, then return to sell loot and repair. A bad loop sends you across half the sector for one payout while every storm, detour and pirate fleet eats into the reward.</p><p>The useful mental habit is to price every trip before you take it. If a bounty, scan contract or exploration lead cannot plausibly pay for supplies, fuel, repairs and the time spent reaching it, treat it as optional until your fleet is stronger. Starsector rewards curiosity, but early curiosity works best when it is tied to a nearby market, a safe retreat path or a mission that pays before your cargo holds run dry.</p>",
           "list": [
-            "Early route",
-            "Transponder discipline",
-            "Supplies",
-            "Fuel",
-            "Retreat planning"
+            "Start with delivery, survey, scan and small bounty work rather than high-danger contracts.",
+            "Keep a credit reserve instead of spending every payout on hulls.",
+            "Add logistics ships only when they solve a real range or cargo problem.",
+            "Turn the transponder off only when you understand who can see you and why it matters.",
+            "Retreat from fights that start badly; saving a fleet is often more profitable than forcing a win."
           ]
         },
         {
-          "h": "Operational Use",
-          "body": "<p>Use this entry as a campaign decision aid. Starsector rewards matching ship roles, officer behavior, logistics and risk level before the battle starts.</p>"
+          "h": "Strengths",
+          "body": "<p>A cautious beginner route compounds quickly. You learn combat without risking the campaign, earn contacts and reputation, and build enough capital to choose between exploration, trade, bounties and colonies. Small fleets are cheap, fast and forgiving; they let you make mistakes without turning every mistake into bankruptcy.</p>"
         },
         {
-          "h": "Common Failure Modes",
+          "h": "Weaknesses",
+          "body": "<p>The safe route can feel slow if you are expecting immediate capital-ship battles. You may pass on tempting derelicts, avoid dangerous beacons, or delay a colony even after finding a promising planet. That restraint is intentional. Starsector opens up dramatically once you can afford failure; before that point, ambition is expensive.</p>"
+        },
+        {
+          "h": "Community Opinions",
+          "body": "<p>Community advice for new players is remarkably consistent: do not rush colonies, do not overbuy ships, respect supplies and fuel, and learn flux before judging combat. Players debate the best starting ship, but the underlying recommendation is the same. Pick something affordable, keep the fleet mobile, and learn what fights look like before you commit to expensive hulls.</p>"
+        },
+        {
+          "h": "Common Mistakes",
+          "body": "<p>Most early failures come from treating the campaign like a linear RPG instead of a logistics sandbox.</p>",
           "list": [
-            "Overcommitting before flux advantage exists",
-            "Ignoring logistics costs",
-            "Taking fights without a retreat route",
-            "Building around a single trick the AI can disrupt",
-            "Letting reputation or colony threats drift unattended"
+            "Buying a cruiser because it looks strong, then discovering deployment and recovery costs are too high.",
+            "Leaving the core worlds with barely enough fuel for the outbound trip.",
+            "Repairing every damaged ship immediately instead of deciding whether the hull is worth saving.",
+            "Taking bounties with unknown enemy composition and no plan to disengage.",
+            "Starting a colony before having money, defenses and a plan for pirate and Pather attention."
           ]
         },
         {
-          "h": "Veteran Notes",
-          "body": "<p>Compare the cost of a plan against the recovery cost if it fails. A good captain wins battles; a great one chooses which battles become profitable.</p>"
+          "h": "Recommendations",
+          "body": "<p>For a first stable run, aim for a small mixed fleet: a flagship you enjoy piloting, two or three escorts, one cargo ship and enough tankers to make short exploration trips comfortable. Build toward a cash reserve before you build toward prestige. When you win a fight, compare the payout against supply use, crew losses and recovered damage. If the profit is thin, the fight was practice, not income.</p><p>Once your fleet can defeat modest pirate groups without limping home, move into exploration contracts and low-to-medium bounties. Delay colonies until you understand what makes a system defensible and profitable.</p><p>A useful rule is to upgrade only after identifying the bottleneck. If pirates escape, add pursuit frigates. If you win fights but take heavy armor damage, improve shields, range control or officer skills. If exploration trips end early, add cargo or fuel. This prevents the classic beginner habit of buying a big warship to solve a logistics problem.</p><p>By the time you are ready for colonies or high-value bounties, you should have three habits: check supplies before every departure, evaluate fights before deployment, and keep enough credits to recover from one mistake. Those habits matter for the entire campaign, not just the tutorial stage.</p><p>Use the first campaign as a logistics lesson rather than a race to own impressive ships. Buy only what your officers, cargo capacity and monthly income can support. When you find a ship that looks exciting, ask whether it solves a current problem: catching targets, surviving missiles, carrying loot or winning harder fights. If it only looks powerful on paper, leave it in storage until your economy can feed it.</p>"
+        },
+        {
+          "h": "Related Articles",
+          "body": "<p>Follow this guide with <a href=\"/beginner-guides/supply-fuel-basics\">Supply &amp; Fuel Basics</a>, <a href=\"/beginner-guides/best-starting-ships\">Best Starting Ships</a>, <a href=\"/fleet-building/early-game-fleets\">Early Game Fleets</a>, <a href=\"/economy/make-credits-fast\">How to Make Credits Fast</a> and <a href=\"/colonies/colony-setup-guide\">Colony Setup Guide</a>.</p>"
         }
       ],
       "related": [
         {
-          "label": "Early route",
-          "href": "/beginner-guides"
+          "label": "Supply & Fuel Basics",
+          "href": "/beginner-guides/supply-fuel-basics"
         },
         {
-          "label": "Transponder discipline",
-          "href": "/beginner-guides"
+          "label": "Best Starting Ships",
+          "href": "/beginner-guides/best-starting-ships"
         },
         {
-          "label": "Supplies",
-          "href": "/beginner-guides"
+          "label": "Early Game Fleets",
+          "href": "/fleet-building/early-game-fleets"
+        },
+        {
+          "label": "Colony Setup Guide",
+          "href": "/colonies/colony-setup-guide"
         }
       ],
       "sources": [
         "wikiGG",
+        "officialForums",
+        "reddit",
         "officialSite"
       ]
     },
@@ -2820,73 +2846,98 @@
       "category": "colonies",
       "id": "colony-setup-guide",
       "title": "Colony Setup Guide",
-      "summary": "A good colony starts with the right world, enough capital and a threat plan.",
+      "summary": "Colonies are profitable only when you settle at the right time, choose a defensible system, build industries in order and prepare for raids before they arrive.",
       "stats": [
+        "Settle timing",
+        "System quality",
         "Hazard rating",
-        "Accessibility",
-        "Industries",
-        "Defenses",
-        "Growth"
+        "Industry order",
+        "Threat management"
       ],
       "tags": [
-        "Hazard rating",
-        "Accessibility",
-        "Industries",
-        "Defenses",
-        "Growth",
-        "colonies",
-        "Colony Setup Guide"
+        "colony guide",
+        "best colony",
+        "hazard rating",
+        "industries",
+        "AI cores",
+        "patrols",
+        "stability",
+        "colonies"
       ],
       "sections": [
         {
-          "h": "Command Summary",
-          "body": "<p>A good colony starts with the right world, enough capital and a threat plan.</p>"
+          "h": "Overview",
+          "body": "<p>Colonies are one of Starsector's biggest power spikes, but they are not an early-game prize to rush blindly. A colony turns your campaign from a mobile fleet story into a strategic defense problem. You gain income, production and storage, but you also invite pirates, Pathers, inspections and hostile attention.</p><p>The right colony plan begins before the first administrator is hired. You need money, a defendable system, a reason to settle there, and enough fleet strength to answer trouble while the colony is weak.</p>"
         },
         {
-          "h": "Tactical Readout",
+          "h": "Why It Matters",
+          "body": "<p>A strong colony can fund endgame fleets and remove dependence on random markets. A bad colony can drain credits, create constant crises and distract you from everything else. Community colony discussions repeatedly warn new players not to settle just because they found a habitable planet. System context matters more than a single good world.</p>"
+        },
+        {
+          "h": "Practical Uses",
+          "body": "<p>Use colonies when you are ready to convert exploration finds into long-term infrastructure. Good candidates usually combine resources, low or manageable hazard, useful neighboring planets, accessibility and defensibility. One perfect planet in an awkward system may be worse than two decent planets that support each other.</p><p>Before founding, make a colony budget that includes the settlement cost, early construction, patrol and defense upgrades, and enough spare credits to keep campaigning. If founding the colony leaves you unable to answer a raid or buy supplies for your fleet, you are not ready. Colonies become easier when they are funded by an already successful campaign rather than expected to rescue a struggling one.</p><p>Before committing to a world, run a boring checklist: can the system defend itself, can it support at least two useful industries, can you reach it quickly from your normal operating area and can you afford several months of disruption? The best colony candidates are not always the flashiest planets. A modest world in a strong system can outperform a beautiful isolated planet because patrols, accessibility and travel time matter every time a crisis appears.</p>",
           "list": [
-            "Hazard rating",
-            "Accessibility",
-            "Industries",
-            "Defenses",
-            "Growth"
+            "Delay founding until you have a large credit reserve and a combat fleet that can answer raids.",
+            "Prefer systems with multiple useful worlds over a single isolated trophy planet.",
+            "Build industries that match resources and demand instead of chasing every profitable icon.",
+            "Plan patrols and defenses before colony threats become routine.",
+            "Use AI cores deliberately; they are powerful but change the political risk profile."
           ]
         },
         {
-          "h": "Operational Use",
-          "body": "<p>Use this entry as a campaign decision aid. Starsector rewards matching ship roles, officer behavior, logistics and risk level before the battle starts.</p>"
+          "h": "Strengths",
+          "body": "<p>Colonies provide recurring income, production access, storage convenience and campaign identity. They let you build toward endgame fleets without relying entirely on markets. A good colony network also makes exploration more rewarding because rare items, blueprints and resources have obvious strategic uses.</p>"
         },
         {
-          "h": "Common Failure Modes",
+          "h": "Weaknesses",
+          "body": "<p>Colonies demand attention. They can be raided, disrupted, inspected or destabilized. They also require upfront investment before becoming comfortable. The weakness is not that colonies are bad; it is that they shift the campaign into a management layer some players underestimate.</p>"
+        },
+        {
+          "h": "Community Opinions",
+          "body": "<p>Veterans often advise waiting longer than your first instinct. A common community line is that colonies become easier once you already have money and mobility. Players debate ideal planet traits and industry combinations, but the practical agreement is clear: settle a system, not just a planet, and do not ignore defenses.</p>"
+        },
+        {
+          "h": "Common Mistakes",
+          "body": "<p>Most colony problems are predictable.</p>",
           "list": [
-            "Overcommitting before flux advantage exists",
-            "Ignoring logistics costs",
-            "Taking fights without a retreat route",
-            "Building around a single trick the AI can disrupt",
-            "Letting reputation or colony threats drift unattended"
+            "Founding too early because the first decent planet feels rare.",
+            "Building too many industries before stability, access and defenses can support them.",
+            "Ignoring nearby hostile bases or Pather interest until disruption starts.",
+            "Choosing a low-hazard planet in a system with poor overall resources and no strategic value.",
+            "Using AI cores everywhere without understanding inspection pressure."
           ]
         },
         {
-          "h": "Veteran Notes",
-          "body": "<p>Compare the cost of a plan against the recovery cost if it fails. A good captain wins battles; a great one chooses which battles become profitable.</p>"
+          "h": "Recommendations",
+          "body": "<p>Wait until you can spend heavily without risking campaign collapse. Look for a system with complementary worlds: resources, habitability, room for patrols and acceptable travel distance. Start with industries that match the planet, then add defenses and patrol strength before expanding aggressively. Treat the first colony as infrastructure, not passive income.</p><p>If you are unsure whether to settle, keep exploring. A delayed good colony is usually better than an early mediocre one that keeps demanding rescue.</p><p>Build in phases. The first phase is survival: stability, accessibility, patrols and basic income. The second phase is specialization: industries that match the planet and system. The third phase is optimization: AI cores, special items, heavy production chains and stronger defenses. Skipping straight to optimization is how new colonies become expensive alarms.</p><p>When comparing locations, prefer a system that gives you several useful decisions later. A single farming planet can be profitable, but a system with farming, mining, volatiles and room for industry gives you options as the campaign changes. Good colony play is less about finding a magic seed and more about recognizing a system that can grow with your goals.</p><p>Also decide what role the colony plays in your campaign. A money colony, a production base and a forward operating hub are not identical projects. If you want income, prioritize stable industries and accessibility. If you want military production, plan heavy industry, defenses and blueprint access. If you want a remote exploration base, storage and location may matter more than perfect profitability.</p><p>That role-based thinking prevents overbuilding. Every structure should answer a current campaign problem or prepare for a predictable threat.</p><p>As the colony matures, keep checking whether each new industry improves resilience or merely adds another problem you must defend. A smaller stable colony that quietly funds exploration, refits and officer salaries is usually stronger than an impressive-looking outpost that drags you away from profitable campaigns every few weeks.</p><p>Do not treat colonies as an escape from the early game. They are a multiplier for an already stable campaign, not a replacement for one. If your fleet cannot handle pirate pressure, inspections or surprise expeditions without bankrupting itself, wait. Spend that time building relationships, storing useful hulls and learning nearby trade routes so the first colony becomes a controlled investment instead of a permanent emergency.</p>"
+        },
+        {
+          "h": "Related Articles",
+          "body": "<p>Read <a href=\"/colonies/best-colony-locations\">Best Colony Locations</a>, <a href=\"/colonies/hazard-rating\">Hazard Rating</a>, <a href=\"/colonies/industries\">Industries</a>, <a href=\"/colonies/ai-cores\">AI Cores</a> and <a href=\"/beginner-guides/beginner-survival-guide\">Beginner Survival Guide</a>.</p>"
         }
       ],
       "related": [
         {
-          "label": "Hazard rating",
-          "href": "/colonies"
+          "label": "Best Colony Locations",
+          "href": "/colonies/best-colony-locations"
         },
         {
-          "label": "Accessibility",
-          "href": "/colonies"
+          "label": "Hazard Rating",
+          "href": "/colonies/hazard-rating"
         },
         {
           "label": "Industries",
-          "href": "/colonies"
+          "href": "/colonies/industries"
+        },
+        {
+          "label": "AI Cores",
+          "href": "/colonies/ai-cores"
         }
       ],
       "sources": [
         "wikiGG",
+        "officialForums",
+        "reddit",
         "officialSite"
       ]
     },
@@ -3634,74 +3685,99 @@
       "category": "fleet-building",
       "id": "early-game-fleets",
       "title": "Early Game Fleets",
-      "summary": "Early fleets should be cheap, fast and able to retreat from bad contracts.",
+      "summary": "The best early Starsector fleet is cheap, fast and flexible: enough combat power to beat pirates, enough logistics to finish jobs and enough speed to refuse bad fights.",
       "stats": [
-        "Frigates",
-        "Destroyers",
-        "Tankers",
-        "Cargo",
-        "Low upkeep"
+        "Fast burn",
+        "Cheap deployment",
+        "Escort roles",
+        "Cargo and fuel",
+        "Disengage options"
       ],
       "tags": [
-        "Frigates",
-        "Destroyers",
-        "Tankers",
-        "Cargo",
-        "Low upkeep",
-        "fleet-building",
-        "Early Game Fleets"
+        "early game fleet",
+        "fleet composition",
+        "frigates",
+        "destroyers",
+        "logistics",
+        "pirates",
+        "beginner fleet",
+        "fleet-building"
       ],
       "sections": [
         {
-          "h": "Command Summary",
-          "body": "<p>Early fleets should be cheap, fast and able to retreat from bad contracts.</p>"
+          "h": "Overview",
+          "body": "<p>An early-game fleet should not be a miniature endgame fleet. It should be a problem-solving tool for the first stage of the campaign: kill small pirate groups, escort deliveries, survey nearby systems, recover useful salvage and leave when the odds become bad. That means speed and operating cost matter as much as raw firepower.</p><p>The reliable pattern is a small core of combat ships supported by one or two logistics hulls. You want enough ships to cover each other, not so many that every trip becomes a supply bill.</p>"
         },
         {
-          "h": "Tactical Readout",
+          "h": "Why It Matters",
+          "body": "<p>Fleet composition determines which activities are available. Too little combat power locks you out of bounties and salvage defense. Too little cargo and fuel makes exploration inefficient. Too many expensive combat hulls bankrupts you between fights. Community fleet advice often sounds contradictory because players optimize for different goals, but nearly everyone agrees that early fleets should stay flexible until your income is stable.</p>"
+        },
+        {
+          "h": "Practical Uses",
+          "body": "<p>Build around roles rather than names. You need a flagship or anchor, fast flankers, point-defense or escort coverage, cargo space and fuel range. A destroyer-led fleet with a few frigates is usually easier to manage than a pile of random recovered hulls.</p><p>For decision-making, divide every possible ship purchase into three questions: does it help me win fights I already want to take, does it help me avoid fights I do not want, or does it make my campaign range better? If the answer is no, the ship is probably a trophy rather than an upgrade. Early Starsector rewards practical hulls more than impressive hangar screenshots.</p><p>A good starter fleet should answer four questions before it leaves port: who catches the target, who wins the main exchange, who carries the loot and who gets everyone home? If one answer is missing, the fleet will feel unreliable even when the individual ships are strong. New players often buy another combat hull when the real fix is a tanker, freighter or cheap pursuit frigate that turns narrow victories into profitable trips.</p>",
           "list": [
-            "Frigates",
-            "Destroyers",
-            "Tankers",
-            "Cargo",
-            "Low upkeep"
+            "Use frigates to chase, screen and capture objectives.",
+            "Use destroyers as the early damage core once pirate frigates stop being the main threat.",
+            "Add a carrier only if you understand replacement rate and fighter pressure.",
+            "Keep civilian logistics ships protected or fast enough to avoid being trapped.",
+            "Upgrade gradually after the fleet proves it can pay for itself."
           ]
         },
         {
-          "h": "Operational Use",
-          "body": "<p>Use this entry as a campaign decision aid. Starsector rewards matching ship roles, officer behavior, logistics and risk level before the battle starts.</p>"
+          "h": "Strengths",
+          "body": "<p>A good early fleet is forgiving. It can run, recover quickly, and accept different mission types. It teaches flux, positioning and pursuit without forcing you into high deployment costs. It also keeps the campaign fun because you spend more time making decisions and less time crawling home broke.</p>"
         },
         {
-          "h": "Common Failure Modes",
+          "h": "Weaknesses",
+          "body": "<p>Small flexible fleets can struggle against armored targets, organized bounty fleets and stations. They also rely on player judgment; if you accept every fight, the fleet will eventually meet something it was designed to avoid. Early fleets are not supposed to solve everything. They are supposed to carry you to the midgame with money and options intact.</p>"
+        },
+        {
+          "h": "Community Opinions",
+          "body": "<p>Common recommendations include Wolves, Lashers, Hammerheads, Enforcers, Condors and practical freighters or tankers, but players argue about exact favorites. The deeper consensus is role balance: a fleet with only fast frigates lacks staying power, while a fleet with only heavy destroyers may lose speed and campaign flexibility. New captains should learn why a ship is recommended before copying a list.</p>"
+        },
+        {
+          "h": "Common Mistakes",
+          "body": "<p>Early fleet mistakes usually come from collecting hulls instead of designing a fleet.</p>",
           "list": [
-            "Overcommitting before flux advantage exists",
-            "Ignoring logistics costs",
-            "Taking fights without a retreat route",
-            "Building around a single trick the AI can disrupt",
-            "Letting reputation or colony threats drift unattended"
+            "Recovering every disabled ship and dragging damaged liabilities around.",
+            "Buying a capital or heavy cruiser before the economy can support it.",
+            "Ignoring point defense and then blaming missiles or fighters for every loss.",
+            "Skipping logistics ships, then abandoning profitable exploration because cargo is full.",
+            "Letting civilian ships slow the whole fleet below a comfortable burn speed."
           ]
         },
         {
-          "h": "Veteran Notes",
-          "body": "<p>Compare the cost of a plan against the recovery cost if it fails. A good captain wins battles; a great one chooses which battles become profitable.</p>"
+          "h": "Recommendations",
+          "body": "<p>Start with a flagship you can pilot confidently, add two to four escorts, then add logistics capacity only as needed. If your fleet wins but repairs are painful, downsize or avoid harder fights. If your fleet has range but cannot defend itself, add combat escorts before deeper exploration. Your goal is not to own the strongest ship early; it is to reach the midgame with enough money to choose a doctrine deliberately.</p><p>A balanced early fleet usually wants one ship that can hold attention, several ships that can punish openings, and enough logistics support to keep moving. If you personally pilot aggressively, make the flagship your damage tool and let escorts screen. If you prefer command-map play, choose ships the AI handles well and avoid loadouts that require perfect timing. The best fleet is the one that performs reliably under your actual piloting habits.</p><p>Transition to midgame when your fleet can beat ordinary pirate groups without emergency repairs and when your income supports a cruiser or several stronger destroyers. Do not transition just because you found a recoverable hull. Recovery is only a bargain if the ship fits the doctrine and does not slow the campaign.</p><p>If you are unsure what to buy next, run one more contract before purchasing. The next fight often reveals the real weakness: maybe you need a faster pursuit ship, maybe you need a sturdier anchor, or maybe you simply need more cargo space for loot. Buying after evidence keeps the fleet coherent.</p><p>Think in pairs rather than single favorite hulls. A fragile damage dealer is much better when it has a shielded escort; a fast frigate is more useful when the rest of the fleet can force enemies to retreat toward it; a cargo ship is safer when the combat wing can disengage cleanly. Early fleet building is less about finding the perfect ship and more about removing the weak link that keeps ruining otherwise winnable runs.</p>"
+        },
+        {
+          "h": "Related Articles",
+          "body": "<p>Continue with <a href=\"/beginner-guides/best-starting-ships\">Best Starting Ships</a>, <a href=\"/beginner-guides/supply-fuel-basics\">Supply &amp; Fuel Basics</a>, <a href=\"/ships/frigates\">Frigates</a>, <a href=\"/ships/destroyers\">Destroyers</a> and <a href=\"/fleet-building/mid-game-fleets\">Mid Game Fleets</a>.</p>"
         }
       ],
       "related": [
         {
+          "label": "Best Starting Ships",
+          "href": "/beginner-guides/best-starting-ships"
+        },
+        {
+          "label": "Supply & Fuel Basics",
+          "href": "/beginner-guides/supply-fuel-basics"
+        },
+        {
           "label": "Frigates",
-          "href": "/fleet-building"
+          "href": "/ships/frigates"
         },
         {
-          "label": "Destroyers",
-          "href": "/fleet-building"
-        },
-        {
-          "label": "Tankers",
-          "href": "/fleet-building"
+          "label": "Mid Game Fleets",
+          "href": "/fleet-building/mid-game-fleets"
         }
       ],
       "sources": [
         "wikiGG",
-        "officialSite"
+        "officialForums",
+        "reddit",
+        "communityGuides"
       ]
     },
     {

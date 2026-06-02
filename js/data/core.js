@@ -1,4 +1,4 @@
-/* Auto-generated lightweight data chunk. */
+﻿/* Auto-generated lightweight data chunk. */
 (function () {
   const root = typeof window !== 'undefined' ? window : globalThis;
   root.WikiData = root.WikiData || {};
@@ -33,6 +33,16 @@
       "label": "Starsector Mod Index",
       "url": "https://fractalsoftworks.com/forum/index.php?topic=177.0",
       "note": "Community mod discovery and compatibility starting point."
+    },
+    "reddit": {
+      "label": "Starsector Reddit Discussions",
+      "url": "https://www.reddit.com/r/starsector/",
+      "note": "Community discussion used to identify recurring beginner problems, fleet advice, colony timing debates and common mistakes."
+    },
+    "communityGuides": {
+      "label": "Community Guides and Forum Advice",
+      "url": "https://fractalsoftworks.com/forum/index.php?board=9.0",
+      "note": "Player-made guides and forum discussions used to understand strategy patterns, not copied wording."
     }
   },
   "categories": [
@@ -174,3 +184,4 @@
   }
 });
 })();
+
