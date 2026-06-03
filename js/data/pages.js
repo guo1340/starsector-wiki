@@ -76,7 +76,7 @@
         },
         {
           "h": "Related Articles",
-          "body": "<p>Follow this guide with <a href=\"/beginner-guides/supply-fuel-basics\">Supply &amp; Fuel Basics</a>, <a href=\"/beginner-guides/best-starting-ships\">Best Starting Ships</a>, <a href=\"/fleet-building/early-game-fleets\">Early Game Fleets</a>, <a href=\"/economy/make-credits-fast\">How to Make Credits Fast</a> and <a href=\"/colonies/colony-setup-guide\">Colony Setup Guide</a>.</p>"
+          "body": "<p>Follow this guide with <a href=\"/beginner-guides/supply-fuel-basics\">Supply &amp; Fuel Basics</a>, <a href=\"/beginner-guides/best-starting-ships\">Best Starting Ships</a>, <a href=\"/fleet-building/early-game-fleets\">Early Game Fleets</a>, <a href=\"/beginner-guides/make-credits-fast\">How to Make Credits Fast</a> and <a href=\"/colonies/colony-setup-guide\">Colony Setup Guide</a>.</p>"
         }
       ],
       "related": [

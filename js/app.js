@@ -193,7 +193,7 @@
   });
   window.addEventListener('popstate', () => { if (window.__GW_PRERENDER__) navigate(); });
   if (menuToggle) menuToggle.onclick = () => leftNav.classList.toggle('open');
-  if (window.__GW_PRERENDER__) {
+  if (window.__GW_PRERENDER__ || !main.innerHTML.trim()) {
     navigate();
   } else {
     renderLeftNav(route());

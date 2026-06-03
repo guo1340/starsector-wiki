@@ -41,7 +41,7 @@ global.localStorage = { getItem: () => null, setItem() {}, removeItem() {} };
 global.history = { pushState() {} };
 let CURRENT = '/';
 global.location = { get pathname() { return CURRENT; }, origin: 'https://starsector.gamewikihub.com' };
-global.window = { addEventListener() {}, scrollTo() {}, adsbygoogle: [] };
+global.window = { addEventListener() {}, scrollTo() {}, adsbygoogle: [], __GW_PRERENDER__: true };
 global.URL = URL;
 global.setTimeout = () => {};
 
@@ -94,6 +94,9 @@ function headBlock(route) {
 function buildPage(template, route) {
   let html = template;
   const rendered = renderRoute(route);
+  if (!rendered.main.trim()) {
+    throw new Error(`Prerender produced empty main content for ${route}`);
+  }
   html = html.replace(/<!-- ssw:head -->[\s\S]*?<!-- \/ssw:head -->/, '<!-- ssw:head -->\n' + headBlock(route) + '\n    <!-- /ssw:head -->');
   html = html.replace(/<script type="application\/ld\+json" id="ssw-jsonld">[\s\S]*?<\/script>/, '<script type="application/ld+json" id="ssw-jsonld">' + JSON.stringify(M.jsonLdFor(route)) + '</script>');
   html = html.replace(/<aside class="sector-index" id="leftNav">[\s\S]*?<main id="main">/,
