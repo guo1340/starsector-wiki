@@ -31,51 +31,59 @@
   <body>
     <div class="starfield" aria-hidden="true"></div>
     <div class="scanlines" aria-hidden="true"></div>
-    <header class="command-top">
-      <a class="identity" href="/">
-        <span class="sigil">SS</span>
-        <span>STARSECTOR<small>Persean command database</small></span>
-      </a>
-      <div class="sector-search">
-        <input type="text" id="searchInput" placeholder="Search ships, factions, colonies, mods..." autocomplete="off" aria-label="Search the wiki" />
-        <div class="search-results" id="searchResults"></div>
-      </div>
-      <nav class="topnav" aria-label="Primary">
-        <a href="/ships">Ships</a>
-        <a href="/weapons">Weapons</a>
-        <a href="/factions">Factions</a>
-        <a href="/colonies">Colonies</a>
-        <a href="/fleet-building">Fleet Building</a>
-        <a href="/combat">Combat</a>
-        <a href="/exploration">Exploration</a>
-        <a href="/mods">Mods</a>
-      </nav>
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">NAV</button>
-    </header>
-    <div class="transmission-bar" aria-hidden="true">
-      <span>COMMS RELAY ACTIVE // SENSOR NET UNSTABLE // HYPERSPACE STORM FRONT DETECTED // HOSTILE TRANSPONDER TRACE</span>
-      <span>COMMS RELAY ACTIVE // SENSOR NET UNSTABLE // HYPERSPACE STORM FRONT DETECTED // HOSTILE TRANSPONDER TRACE</span>
-    </div>
-    <div class="command-grid">
-      <aside class="sector-index" id="leftNav"><div class="rail-title">SECTOR INDEX</div><a class="index-row cyan" href="/beginner-guides" data-r="/beginner-guides"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 14v18M50 68v18M18 50h18M64 50h18M50 34a16 16 0 100 32 16 16 0 000-32z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Beginner Guides</b></a><a class="index-row blue" href="/ships" data-r="/ships"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 12l28 68-28-14-28 14zM50 12v54" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Ships</b></a><a class="index-row orange" href="/weapons" data-r="/weapons"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 68h64M34 68V48h32v20M42 48l24-24 12 12-24 24" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Weapons</b></a><a class="index-row cyan" href="/fighters" data-r="/fighters"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M14 62l36-34 36 34-36-8z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Fighters</b></a><a class="index-row green" href="/hullmods" data-r="/hullmods"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M24 24h52v52H24zM38 38h24v24H38zM14 38h10M14 62h10M76 38h10M76 62h10" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Hullmods</b></a><a class="index-row green" href="/skills" data-r="/skills"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 18a15 15 0 110 30 15 15 0 010-30zM24 84c7-22 45-22 52 0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Skills &amp; Officers</b></a><a class="index-row orange" href="/factions" data-r="/factions"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 82V18h52l-10 20 10 20H22" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Factions</b></a><a class="index-row green" href="/colonies" data-r="/colonies"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 74V40l32-22 32 22v34zM34 74V52h32v22" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Colonies</b></a><a class="index-row cyan" href="/exploration" data-r="/exploration"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 16a34 34 0 100 68 34 34 0 000-68zM50 50l28-18M50 50h22" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Exploration</b></a><a class="index-row blue" href="/fleet-building" data-r="/fleet-building"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 64l20-42 20 42-20-10zM66 72l14-30 14 30-14-8zM50 82l14-30 14 30-14-8z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Fleet Building</b></a><a class="index-row red" href="/combat" data-r="/combat"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 14v18M50 68v18M14 50h18M68 50h18M50 30a20 20 0 100 40 20 20 0 000-40z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Combat</b></a><a class="index-row orange" href="/economy" data-r="/economy"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 18c22 0 36 9 36 20S72 58 50 58 14 49 14 38s14-20 36-20zM14 38v24c0 11 14 20 36 20s36-9 36-20V38" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Economy</b></a><a class="index-row cyan" href="/mods" data-r="/mods"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 20l8 9 12-2 4 12-9 8 3 13-11 7-8-9-10 9-11-7 3-13-9-8 4-12 12 2z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Mods</b></a><a class="index-row green" href="/guides" data-r="/guides"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 18h42c8 0 14 6 14 14v50H34c-7 0-12-5-12-12zM34 18v64" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Guides</b></a><a class="index-row blue" href="/maps-sector" data-r="/maps-sector"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 24l20-8 24 8 20-8v60l-20 8-24-8-20 8zM38 16v60M62 24v60" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Maps &amp; Sector</b></a><a class="index-row orange" href="/patch-notes" data-r="/patch-notes"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M20 70a42 42 0 0160 0M32 58a25 25 0 0136 0M46 72h8" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Patch Notes</b></a><div class="rail-title small">SITE FILES</div><a class="index-row" href="/about" data-r="/about"><b>About</b></a><a class="index-row" href="/privacy-policy" data-r="/privacy-policy"><b>Privacy</b></a><a class="index-row" href="/contact" data-r="/contact"><b>Contact</b></a><div class="ad-slot ad-half-page" role="complementary" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453" data-ad-format="auto" data-full-width-responsive="true"></ins></div></aside>
+    <!-- ssw:header -->
+<header class="command-top">
+  <a class="identity" href="/">
+    <span class="sigil">SS</span>
+    <span>STARSECTOR<small>Persean command database</small></span>
+  </a>
+  <div class="sector-search">
+    <input type="text" id="searchInput" placeholder="Search ships, factions, colonies, mods..." autocomplete="off" aria-label="Search the wiki" />
+    <div class="search-results" id="searchResults"></div>
+  </div>
+  <nav class="topnav" aria-label="Primary">
+    <a href="/ships">Ships</a>
+    <a href="/weapons">Weapons</a>
+    <a href="/factions">Factions</a>
+    <a href="/colonies">Colonies</a>
+    <a href="/fleet-building">Fleet Building</a>
+    <a href="/combat">Combat</a>
+    <a href="/exploration">Exploration</a>
+    <a href="/mods">Mods</a>
+    <a href="https://gamewikihub.com/" target="_blank" rel="noopener noreferrer">GameWikiHub</a>
+  </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">NAV</button>
+</header>
+<div class="transmission-bar" aria-hidden="true">
+  <span>COMMS RELAY ACTIVE // SENSOR NET UNSTABLE // HYPERSPACE STORM FRONT DETECTED // HOSTILE TRANSPONDER TRACE</span>
+  <span>COMMS RELAY ACTIVE // SENSOR NET UNSTABLE // HYPERSPACE STORM FRONT DETECTED // HOSTILE TRANSPONDER TRACE</span>
+</div>
+    <!-- /ssw:header -->
+    <!-- ssw:sidebar -->
+<div class="command-grid">
+  <aside class="sector-index" id="leftNav"><div class="rail-title">SECTOR INDEX</div><a class="index-row cyan" href="/beginner-guides" data-r="/beginner-guides"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 14v18M50 68v18M18 50h18M64 50h18M50 34a16 16 0 100 32 16 16 0 000-32z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Beginner Guides</b></a><a class="index-row blue" href="/ships" data-r="/ships"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 12l28 68-28-14-28 14zM50 12v54" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Ships</b></a><a class="index-row orange" href="/weapons" data-r="/weapons"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 68h64M34 68V48h32v20M42 48l24-24 12 12-24 24" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Weapons</b></a><a class="index-row cyan" href="/fighters" data-r="/fighters"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M14 62l36-34 36 34-36-8z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Fighters</b></a><a class="index-row green" href="/hullmods" data-r="/hullmods"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M24 24h52v52H24zM38 38h24v24H38zM14 38h10M14 62h10M76 38h10M76 62h10" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Hullmods</b></a><a class="index-row green" href="/skills" data-r="/skills"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 18a15 15 0 110 30 15 15 0 010-30zM24 84c7-22 45-22 52 0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Skills &amp; Officers</b></a><a class="index-row orange" href="/factions" data-r="/factions"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 82V18h52l-10 20 10 20H22" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Factions</b></a><a class="index-row green" href="/colonies" data-r="/colonies"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 74V40l32-22 32 22v34zM34 74V52h32v22" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Colonies</b></a><a class="index-row cyan" href="/exploration" data-r="/exploration"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 16a34 34 0 100 68 34 34 0 000-68zM50 50l28-18M50 50h22" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Exploration</b></a><a class="index-row blue" href="/fleet-building" data-r="/fleet-building"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 64l20-42 20 42-20-10zM66 72l14-30 14 30-14-8zM50 82l14-30 14 30-14-8z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Fleet Building</b></a><a class="index-row red" href="/combat" data-r="/combat"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 14v18M50 68v18M14 50h18M68 50h18M50 30a20 20 0 100 40 20 20 0 000-40z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Combat</b></a><a class="index-row orange" href="/economy" data-r="/economy"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 18c22 0 36 9 36 20S72 58 50 58 14 49 14 38s14-20 36-20zM14 38v24c0 11 14 20 36 20s36-9 36-20V38" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Economy</b></a><a class="index-row cyan" href="/mods" data-r="/mods"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 20l8 9 12-2 4 12-9 8 3 13-11 7-8-9-10 9-11-7 3-13-9-8 4-12 12 2z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Mods</b></a><a class="index-row green" href="/guides" data-r="/guides"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 18h42c8 0 14 6 14 14v50H34c-7 0-12-5-12-12zM34 18v64" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Guides</b></a><a class="index-row blue" href="/maps-sector" data-r="/maps-sector"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 24l20-8 24 8 20-8v60l-20 8-24-8-20 8zM38 16v60M62 24v60" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Maps &amp; Sector</b></a><a class="index-row orange" href="/patch-notes" data-r="/patch-notes"><span><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M20 70a42 42 0 0160 0M32 58a25 25 0 0136 0M46 72h8" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Patch Notes</b></a><div class="rail-title small">SITE FILES</div><a class="index-row" href="/about" data-r="/about"><b>About</b></a><a class="index-row" href="/privacy-policy" data-r="/privacy-policy"><b>Privacy</b></a><a class="index-row" href="/contact" data-r="/contact"><b>Contact</b></a><div class="ad-slot ad-half-page" role="complementary" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453" data-ad-format="auto" data-full-width-responsive="true"></ins></div></aside>
       <main id="main"><div class="ad-slot ad-banner" role="complementary" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;width:100%;height:90px;" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453"  data-full-width-responsive="true"></ins></div><article class="intel-page cyan"><header class="intel-header"><div><div class="breadcrumb"><a href="/mods">Mods</a> / Iron Shell</div><h1>Iron Shell</h1><p>Iron Shell adds Hegemony-adjacent military flavor and content.</p></div><aside class="quick-readout"><span>QUICK READOUT</span><b>Faction content</b><b>Ships</b><b>Missions</b><b>Hegemony theme</b><b>Compatibility</b></aside></header><div class="article-grid"><div><section class="intel-section" id="sec-0"><h3><span>01</span>Command Summary</h3><p>Iron Shell adds Hegemony-adjacent military flavor and content.</p></section><section class="intel-section" id="sec-1"><h3><span>02</span>Tactical Readout</h3><div class="readout-list"><div>Faction content</div><div>Ships</div><div>Missions</div><div>Hegemony theme</div><div>Compatibility</div></div></section><section class="intel-section" id="sec-2"><h3><span>03</span>Operational Use</h3><p>Use this entry as a campaign decision aid. Starsector rewards matching ship roles, officer behavior, logistics and risk level before the battle starts.</p></section><section class="intel-section" id="sec-3"><h3><span>04</span>Common Failure Modes</h3><div class="readout-list"><div>Overcommitting before flux advantage exists</div><div>Ignoring logistics costs</div><div>Taking fights without a retreat route</div><div>Building around a single trick the AI can disrupt</div><div>Letting reputation or colony threats drift unattended</div></div></section><section class="intel-section" id="sec-4"><h3><span>05</span>Veteran Notes</h3><p>Compare the cost of a plan against the recovery cost if it fails. A good captain wins battles; a great one chooses which battles become profitable.</p></section><div class="related-strip"><a href="/mods">Faction content</a><a href="/mods">Ships</a><a href="/mods">Missions</a></div><aside class="source-notes"><div class="panel-label">SOURCE PACKET</div><div class="src-meta"><span>UPDATED 2026-05-24</span><span>General strategy guidance; verify exact stats against your installed Starsector version and mod list.</span></div><ul><li><a href="https://starsector.wiki.gg/" target="_blank" rel="noopener noreferrer">Starsector Wiki.gg</a> - Community mechanics reference for ships, weapons, factions and systems.</li><li><a href="https://fractalsoftworks.com/" target="_blank" rel="noopener noreferrer">Fractal Softworks</a> - Official Starsector site and development source.</li></ul></aside></div><aside class="toc-panel"><span class="panel-label">TACTICAL TAGS</span><a href="/mods">Faction content</a><a href="/mods">Ships</a><a href="/mods">Missions</a><a href="/mods">Hegemony theme</a><a href="/mods">Compatibility</a><a href="/mods">mods</a><a href="/mods">Iron Shell</a></aside></div></article><div class="ad-slot ad-in-article" role="complementary" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453" data-ad-format="auto" data-full-width-responsive="true"></ins></div></main>
-      <aside class="intel-rail" id="rightNav"><div class="rail-title">INTEL FEED</div><a href="/ships/best-ships">Best Ships</a><a href="/colonies/colony-setup-guide">Colony Guide</a><a href="/mods/best-mods">Best Mods</a><a href="/combat/flux-management">Flux Warfare</a><a href="/factions/hegemony">Hegemony</a><a href="/fleet-building/endgame-fleets">Endgame Fleets</a><div class="transmission-card"><span>OPEN CHANNEL</span><p>The transponder is a diplomatic weapon and a liability.</p></div><div class="ad-slot ad-rectangle" role="complementary" aria-label="Advertisement"><span class="ad-label">SPONSORED RELAY</span><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1319817671788428" data-ad-slot="6141169453" data-ad-format="auto" data-full-width-responsive="true"></ins></div></aside>
-    </div>
-    <footer class="site-footer">
-      <p class="footer-tagline">Recovered database fragment: Persean Sector tactical archive.</p>
-      <nav class="footer-links" aria-label="External resources">
-        <a href="https://fractalsoftworks.com/" target="_blank" rel="noopener noreferrer">Official Site</a>
-        <a href="https://starsector.wiki.gg/" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
-        <a href="https://fractalsoftworks.com/forum/" target="_blank" rel="noopener noreferrer">Forums</a>
-        <a href="/patch-notes">Patch Notes</a>
-      </nav>
-      <nav class="footer-links" aria-label="Site information">
-        <a href="/about">About</a>
-        <a href="/privacy-policy">Privacy Policy</a>
-        <a href="/contact">Contact</a>
-      </nav>
-      <p>Unofficial fan wiki. Starsector is owned by Fractal Softworks. GameWikiHub &copy; 2026.</p>
-    </footer>
+  <aside class="intel-rail" id="rightNav"></aside>
+</div>
+    <!-- /ssw:sidebar -->
+    <!-- ssw:footer -->
+<footer class="site-footer">
+  <p class="footer-tagline">Recovered database fragment: Persean Sector tactical archive.</p>
+  <nav class="footer-links" aria-label="External resources">
+    <a href="https://fractalsoftworks.com/" target="_blank" rel="noopener noreferrer">Official Site</a>
+    <a href="https://starsector.wiki.gg/" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
+    <a href="https://fractalsoftworks.com/forum/" target="_blank" rel="noopener noreferrer">Forums</a>
+    <a href="https://gamewikihub.com/" target="_blank" rel="noopener noreferrer">GameWikiHub</a>
+    <a href="/patch-notes">Patch Notes</a>
+  </nav>
+  <nav class="footer-links" aria-label="Site information">
+    <a href="/about">About</a>
+    <a href="/privacy-policy">Privacy Policy</a>
+    <a href="/contact">Contact</a>
+  </nav>
+  <p>Unofficial fan wiki. Starsector is owned by Fractal Softworks. GameWikiHub &copy; 2026.</p>
+</footer>
+    <!-- /ssw:footer -->
     <script src="/js/data.js"></script>
     <script src="/js/meta.js"></script>
     <script src="/js/app.js"></script>

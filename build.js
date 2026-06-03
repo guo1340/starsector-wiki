@@ -52,12 +52,23 @@ global.window.WikiMeta = window.WikiMeta;
 const D = window.WikiData;
 const M = window.WikiMeta;
 const APP = require.resolve('./js/app.js');
+const PARTIALS = path.join(ROOT, 'partials');
 
 function escAttr(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 function escText(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+function readPartial(name) {
+  return fs.readFileSync(path.join(PARTIALS, name), 'utf8').trim();
+}
+function pageTemplate() {
+  let template = readPartial('layout.html');
+  template = template.replace(/<!-- ssw:header -->[\s\S]*?<!-- \/ssw:header -->/, '<!-- ssw:header -->\n' + readPartial('header.html') + '\n    <!-- /ssw:header -->');
+  template = template.replace(/<!-- ssw:sidebar -->[\s\S]*?<!-- \/ssw:sidebar -->/, '<!-- ssw:sidebar -->\n' + readPartial('sidebar.html') + '\n    <!-- /ssw:sidebar -->');
+  template = template.replace(/<!-- ssw:footer -->[\s\S]*?<!-- \/ssw:footer -->/, '<!-- ssw:footer -->\n' + readPartial('footer.html') + '\n    <!-- /ssw:footer -->');
+  return template;
 }
 function renderRoute(route) {
   CURRENT = route;
@@ -121,7 +132,7 @@ function writeSitemap(allRoutes) {
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`, 'utf8');
 }
 function run() {
-  const template = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const template = pageTemplate();
   const allRoutes = routes();
   allRoutes.forEach((route) => {
     const file = outPath(route);
