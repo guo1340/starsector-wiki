@@ -49,6 +49,98 @@ body {
   z-index: 999;
   background: repeating-linear-gradient(to bottom, transparent 0 2px, rgba(89,208,255,.035) 3px, transparent 4px);
 }
+.load-buffer {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(89,208,255,.16), transparent 24%),
+    linear-gradient(180deg, rgba(3,8,13,.98), rgba(7,16,24,.93));
+  transition: opacity .34s ease, visibility .34s ease;
+}
+.load-console {
+  width: min(560px, 92vw);
+  padding: 24px;
+  border: 1px solid var(--line2);
+  border-left: 4px solid var(--cyan);
+  background:
+    repeating-linear-gradient(to bottom, rgba(89,208,255,.04) 0 1px, transparent 1px 6px),
+    rgba(5,12,18,.9);
+  box-shadow: 0 0 42px rgba(89,208,255,.15), 0 22px 80px rgba(0,0,0,.65);
+}
+.load-kicker {
+  display: block;
+  color: var(--orange2);
+  font: 12px var(--font-mono);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.load-console strong {
+  display: block;
+  color: var(--text);
+  font: 700 clamp(22px, 5vw, 34px)/1.1 var(--font-head);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.load-console p {
+  color: var(--muted);
+  margin: 12px 0 0;
+}
+.load-scan {
+  height: 8px;
+  margin-top: 18px;
+  border: 1px solid rgba(89,208,255,.28);
+  background: rgba(89,208,255,.06);
+  overflow: hidden;
+}
+.load-scan span {
+  display: block;
+  width: 42%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, var(--cyan2), var(--orange2), transparent);
+  animation: loadSweep 1.2s linear infinite;
+}
+@keyframes loadSweep {
+  from { transform: translateX(-110%); }
+  to { transform: translateX(250%); }
+}
+body.is-loading .command-top,
+body.is-loading .transmission-bar,
+body.is-loading .sector-index,
+body.is-loading .intel-rail,
+body.is-loading .site-footer {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+body.shell-ready .command-top,
+body.shell-ready .transmission-bar,
+body.shell-ready .sector-index,
+body.shell-ready .intel-rail,
+body.shell-ready .site-footer {
+  opacity: 1;
+  transform: none;
+  transition: opacity .22s ease, transform .22s ease;
+}
+body.is-loading #main {
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+}
+body.main-ready #main {
+  opacity: 1;
+  transform: none;
+  transition: opacity .28s ease, transform .28s ease;
+  pointer-events: auto;
+}
+body.main-ready .load-buffer {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 a { color: var(--cyan2); text-decoration: none; }
 a:hover { color: var(--orange2); }
 .command-top {

@@ -7,6 +7,27 @@
   const searchResults = document.getElementById('searchResults');
   const menuToggle = document.getElementById('menuToggle');
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  let loadTimer = null;
+  let mainTimer = null;
+  function beginPageLoad() {
+    if (!document.body || window.__GW_PRERENDER__) return;
+    clearTimeout(loadTimer);
+    clearTimeout(mainTimer);
+    document.body.classList.add('is-loading');
+    document.body.classList.remove('shell-ready', 'main-ready');
+  }
+  function finishPageLoad() {
+    if (!document.body) return;
+    clearTimeout(loadTimer);
+    clearTimeout(mainTimer);
+    requestAnimationFrame(() => {
+      document.body.classList.add('shell-ready');
+      loadTimer = setTimeout(() => {
+        document.body.classList.add('main-ready');
+        mainTimer = setTimeout(() => document.body.classList.remove('is-loading'), 360);
+      }, 170);
+    });
+  }
   const category = (id) => D.categories.find((c) => c.id === id);
   const pagesIn = (id) => D.pages.filter((p) => p.category === id);
   const page = (cat, id) => D.pages.find((p) => p.category === cat && p.id === id);
@@ -138,10 +159,12 @@
     else render404(r);
     applySeo(r);
     setTimeout(loadAds, 100);
+    finishPageLoad();
   }
   function go(path) {
     const clean = path.replace(/\/$/, '') || '/';
     if (clean === route()) return;
+    beginPageLoad();
     history.pushState({}, '', clean);
     leftNav.classList.remove('open');
     navigate();
@@ -199,5 +222,6 @@
     renderLeftNav(route());
     renderRightNav();
     setTimeout(loadAds, 100);
+    finishPageLoad();
   }
 })();
